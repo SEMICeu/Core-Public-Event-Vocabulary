@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://data.europa.eu/m8g/cpev#"
+     xml:base="http://data.europa.eu/m8g/cpev"
+     xmlns:schema="http://schema.org/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cpev="http://data.europa.eu/m8g/cpev#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://data.europa.eu/m8g/cpev">
+        <dcterms:publisher>http://publications.europa.eu/resource/authority/corporate-body/DIGIT</dcterms:publisher>
+        <dcterms:status>http://purl.org/adms/status/UnderDevelopment</dcterms:status>
+        <dcterms:title xml:lang="en">Core Public Event Vocabulary</dcterms:title>
+        <vann:preferredNamespacePrefix>cpev</vann:preferredNamespacePrefix>
+        <dcterms:type>http://purl.org/adms/assettype/Ontology</dcterms:type>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-13</dcterms:created>
+        <vann:preferredNamespaceUri xml:lang="en">http://data.europa.eu/m8g/cpev</vann:preferredNamespaceUri>
+        <dcterms:description xml:lang="en">The Core Public Event Vocabulary is designed to describe the core characteristics of a public event.</dcterms:description>
+        <dcterms:license>https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11</dcterms:license>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.03</owl:versionInfo>
+        <skos:historyNote xml:lang="en">v0.04 - First public version
+v0.03 - Added schema:Date
+v0.02 - Added definitions of hasSponsor, hasOrganiser and hasPromoter
+v0.01 - Initial model</skos:historyNote>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/dcam/memberOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/dcam/memberOf"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#license-002"/>
+        <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">License</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/status"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+        <rdfs:comment xml:lang="en">The preferred namespace prefix to use when using terms from this vocabulary in an XML document.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/vann/"/>
+        <rdfs:label xml:lang="en">Preferred Namespace Prefix</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+        <rdfs:comment xml:lang="en">The preferred namespace URI to use when using terms from this vocabulary in an XML document.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/vann/"/>
+        <rdfs:label xml:lang="en">Preferred Namespace Uri</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/vocab/vann/usageNote -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/usageNote"/>
+    
+
+
+    <!-- http://schema.org/domainIncludes -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/domainIncludes"/>
+    
+
+
+    <!-- http://schema.org/inverseOf -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/inverseOf"/>
+    
+
+
+    <!-- http://schema.org/rangeIncludes -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/rangeIncludes"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#historyNote">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">history note</rdfs:label>
+        <skos:definition xml:lang="en">A note about the past state/use/meaning of a concept.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://data.europa.eu/m8g/format -->
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/m8g/format">
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="en">Plan of organisation or arrangement of the event. Examples include conference call and physical meeting.</rdfs:comment>
+        <rdfs:label xml:lang="en">format</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://data.europa.eu/m8g/hasOrganiser -->
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/m8g/hasOrganiser">
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="en">An agent that creates or coordinates an activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasOrganiser</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://data.europa.eu/m8g/hasPromoter -->
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/m8g/hasPromoter">
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="en">An agent that advertises an activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPromoter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://data.europa.eu/m8g/hasSponsor -->
+
+    <owl:ObjectProperty rdf:about="http://data.europa.eu/m8g/hasSponsor">
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="en">An agent that financially supports an activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSponsor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <dcterms:description xml:lang="en">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</dcterms:description>
+        <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#typeT-001"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/audience -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/audience">
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWork"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/LodgingBusiness"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/PlayAction"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Product"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Service"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Audience"/>
+        <rdfs:comment>An intended audience, i.e. a group for whom something was created.</rdfs:comment>
+        <rdfs:label>audience</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/itemOffered -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/itemOffered">
+        <schema:domainIncludes rdf:resource="http://schema.org/Demand"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Offer"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Product"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Service"/>
+        <rdfs:comment>The item being offered.</rdfs:comment>
+        <rdfs:label>itemOffered</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/location">
+        <schema:domainIncludes rdf:resource="http://schema.org/Action"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Organization"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Place"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/PostalAddress"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment>The location of for example where the event is happening, an organization is located, or where an action takes place.</rdfs:comment>
+        <rdfs:label>location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/offers -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/offers">
+        <schema:domainIncludes rdf:resource="http://schema.org/AggregateOffer"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWork"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MenuItem"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Product"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Service"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Offer"/>
+        <rdfs:comment>An offer to provide this item&amp;#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.</rdfs:comment>
+        <rdfs:label>offers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/openingHoursSpecification -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/openingHoursSpecification">
+        <dcterms:source rdf:resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Place"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/OpeningHoursSpecification"/>
+        <rdfs:comment>The opening hours of a certain place.</rdfs:comment>
+        <rdfs:label>openingHoursSpecification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/subEvent -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subEvent">
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:inverseOf rdf:resource="http://schema.org/superEvent"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment>An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference.</rdfs:comment>
+        <rdfs:label>subEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://data.europa.eu/m8g/accessibility -->
+
+    <owl:DatatypeProperty rdf:about="http://data.europa.eu/m8g/accessibility">
+        <rdfs:comment xml:lang="en">Information about how the event can be approached, reached or entered, in particular for people with special needs.</rdfs:comment>
+        <rdfs:label xml:lang="en">accessibility</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://data.europa.eu/m8g/eventRegistration -->
+
+    <owl:DatatypeProperty rdf:about="http://data.europa.eu/m8g/eventRegistration">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">Information regarding the registration of the event.</rdfs:comment>
+        <rdfs:label xml:lang="en">eventRegistration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://schema.org/endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/endDate">
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWorkSeason"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWorkSeries"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/DatedMoneySpecification"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Role"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Date"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/DateTime"/>
+        <rdfs:comment>The end date and time of the item (in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;).</rdfs:comment>
+        <rdfs:label>endDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/startDate">
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWorkSeason"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreativeWorkSeries"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/DatedMoneySpecification"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Event"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/Role"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Date"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/DateTime"/>
+        <rdfs:comment>The start date and time of the item (in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;).</rdfs:comment>
+        <rdfs:label>startDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/url">
+        <schema:domainIncludes rdf:resource="http://schema.org/Thing"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/URL"/>
+        <rdfs:comment>URL of the item.</rdfs:comment>
+        <rdfs:label>url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://data.europa.eu/m8g/PublicEvent -->
+
+    <owl:Class rdf:about="http://data.europa.eu/m8g/PublicEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment xml:lang="en">Something that happens at a particular place and time, organised by an agent for a particular purpose, and is of interest to a general audience. This definition excludes natural events such as earthquakes or hurricanes.</rdfs:comment>
+        <rdfs:label xml:lang="en">PublicEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Event -->
+
+    <owl:Class rdf:about="http://purl.org/dc/dcmitype/Event">
+        <owl:equivalentClass rdf:resource="http://schema.org/Event"/>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <dcterms:description xml:lang="en">Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.</dcterms:description>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#Event-003"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dcterms:modified>
+        <rdfs:comment xml:lang="en">A non-persistent, time-based occurrence.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/dcmitype/"/>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dcterms:description xml:lang="en">Examples of Agent include person, organization, and software agent.</dcterms:description>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#Agent-001"/>
+        <rdfs:comment xml:lang="en">A resource that acts or has the power to act.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Audience -->
+
+    <owl:Class rdf:about="http://schema.org/Audience">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment>Intended audience for an item, i.e. the group for whom the item was created.</rdfs:comment>
+        <rdfs:label>Audience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Date -->
+
+    <owl:Class rdf:about="http://schema.org/Date">
+        <rdfs:comment>A date value in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label>Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DateTime -->
+
+    <owl:Class rdf:about="http://schema.org/DateTime">
+        <rdfs:comment>A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601).</rdfs:comment>
+        <rdfs:label>DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Event -->
+
+    <owl:Class rdf:about="http://schema.org/Event">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment>An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/offers&quot;&gt;offers&lt;/a&gt; property. Repeated events may be structured as separate Event objects.</rdfs:comment>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+    <owl:Class rdf:about="http://schema.org/Intangible">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
+        <rdfs:label>Intangible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Offer -->
+
+    <owl:Class rdf:about="http://schema.org/Offer">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <dcterms:source rdf:resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"/>
+        <rdfs:comment>An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.&lt;/p&gt;
+
+&lt;p&gt;For &lt;a href=&quot;http://www.gs1.org/barcodes/technical/idkeys/gtin&quot;&gt;GTIN&lt;/a&gt;-related fields, see &lt;a href=&quot;http://www.gs1.org/barcodes/support/check_digit_calculator&quot;&gt;Check Digit calculator&lt;/a&gt; and &lt;a href=&quot;http://www.gs1us.org/resources/standards/gtin-validation-guide&quot;&gt;validation guide&lt;/a&gt; from &lt;a href=&quot;http://www.gs1.org/&quot;&gt;GS1&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label>Offer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/OpeningHoursSpecification -->
+
+    <owl:Class rdf:about="http://schema.org/OpeningHoursSpecification">
+        <rdfs:subClassOf rdf:resource="http://schema.org/StructuredValue"/>
+        <dcterms:source rdf:resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass"/>
+        <rdfs:comment>A structured value providing information about the opening hours of a place or a certain service inside a place.&lt;/p&gt;
+
+&lt;p&gt;The place is &lt;strong&gt;open&lt;/strong&gt; if the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/opens&quot;&gt;opens&lt;/a&gt; property is specified, and &lt;strong&gt;closed&lt;/strong&gt; otherwise.&lt;/p&gt;
+
+&lt;p&gt;If the value for the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/closes&quot;&gt;closes&lt;/a&gt; property is less than the value for the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/opens&quot;&gt;opens&lt;/a&gt; property then the hour range is assumed to span over the next day.</rdfs:comment>
+        <rdfs:label>OpeningHoursSpecification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Place -->
+
+    <owl:Class rdf:about="http://schema.org/Place">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment>Entities that have a somewhat fixed, physical extension.</rdfs:comment>
+        <rdfs:label>Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Product -->
+
+    <owl:Class rdf:about="http://schema.org/Product">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <dcterms:source rdf:resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"/>
+        <rdfs:comment>Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.</rdfs:comment>
+        <rdfs:label>Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/StructuredValue -->
+
+    <owl:Class rdf:about="http://schema.org/StructuredValue">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment>Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.</rdfs:comment>
+        <rdfs:label>StructuredValue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Thing -->
+
+    <owl:Class rdf:about="http://schema.org/Thing">
+        <rdfs:comment>The most generic type of item.</rdfs:comment>
+        <rdfs:label>Thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:comment>An agent (eg. person, group, software or physical artifact).</rdfs:comment>
+        <rdfs:label>Agent</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#descriptionT-001"/>
+        <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
+        <dcterms:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</dcterms:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
+        <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#titleT-002"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <skos:definition xml:lang="en">An idea or notion; a unit of thought.</skos:definition>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
