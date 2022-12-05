@@ -1,0 +1,270 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en> <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_enshapes> <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#ContactPointShape>,
+    <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#ParticipationShape>,
+    <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#PublicEventShape>,
+    <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#TemporalEntityShape>,
+    <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#AddressShape>,
+    <https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#AgentShape> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#AddressShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:description "The name of a geographic area that groups Addresses."@en;
+    shacl:name "address area"@en;
+    shacl:path <http://www.w3.org/ns/locn#addressArea>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "A globally unique identifier for each instance of an Address."@en;
+    shacl:name "address ID"@en;
+    shacl:path <http://www.w3.org/ns/locn#addressId>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The name of the uppermost level of the address, almost always a country."@en;
+    shacl:name "administrative unit level 1"@en;
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL1>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
+    shacl:name "administrative unit level 2"@en;
+    shacl:path <http://www.w3.org/ns/locn#adminUnitL2>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The complete address written as a string."@en;
+    shacl:name "full address"@en;
+    shacl:path <http://www.w3.org/ns/locn#fullAddress>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "A number or sequence of characters that uniquely identifies the locator within the relevant scope."@en;
+    shacl:name "locator designator"@en;
+    shacl:path <http://www.w3.org/ns/locn#locatorDesignator>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Proper noun(s) applied to the real world entity identified by the locator."@en;
+    shacl:name "locator name"@en;
+    shacl:path <http://www.w3.org/ns/locn#locatorName>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "A location designator for a postal delivery point at a post office, usually a number."@en;
+    shacl:name "post office box"@en;
+    shacl:path <http://www.w3.org/ns/locn#poBox>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
+    shacl:name "post code"@en;
+    shacl:path <http://www.w3.org/ns/locn#postCode>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
+    shacl:name "post name"@en;
+    shacl:path <http://www.w3.org/ns/locn#postName>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The name of a passage or way through from one location to another."@en;
+    shacl:name "thoroughfare"@en;
+    shacl:path <http://www.w3.org/ns/locn#thoroughfare>
+  ];
+  shacl:targetClass <http://www.w3.org/ns/locn#Address> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#AgentShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdfs:Literal;
+    shacl:description "The unambiguous structured reference for the Agent."@en;
+    shacl:name "identifier"@en;
+    shacl:path dc:identifier
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The noun given to the Agent."@en;
+    shacl:name "name"@en;
+    shacl:path dc:title
+  ], [
+    shacl:class <http://data.europa.eu/m8g/Participation>;
+    shacl:description "The participation in which an Agent is involved."@en;
+    shacl:name "participates"@en;
+    shacl:path <http://data.europa.eu/m8g/participates>
+  ];
+  shacl:targetClass foaf:Agent .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#ContactPointShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
+    shacl:description "The time during which the Contact Point is not available."@en;
+    shacl:name "availability restriction"@en;
+    shacl:path <http://data.europa.eu/m8g/specialOpeningHoursSpecification>
+  ], [
+    shacl:class foaf:Document;
+    shacl:description "A web page that could be used to reach out the Contact Point."@en;
+    shacl:name "contact page"@en;
+    shacl:path <http://data.europa.eu/m8g/contactPage>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "An electronic address through which the Contact Point can be contacted."@en;
+    shacl:name "has email"@en;
+    shacl:path <http://data.europa.eu/m8g/email>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "A telephone number through which the Contact Point can be contacted."@en;
+    shacl:name "has telephone"@en;
+    shacl:path <http://data.europa.eu/m8g/telephone>
+  ], [
+    shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
+    shacl:description "The time at which the Contact Point is normally available."@en;
+    shacl:name "opening hours"@en;
+    shacl:path <http://data.europa.eu/m8g/openingHours>
+  ];
+  shacl:targetClass <http://data.europa.eu/m8g/ContactPoint> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#ParticipationShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:description "A textual explanation of the Participation."@en;
+    shacl:name "description"@en;
+    shacl:path dc:description
+  ], [
+    shacl:class foaf:Agent;
+    shacl:description "The Agent involved in the Participation."@en;
+    shacl:name "hasParticipant"@en;
+    shacl:path <http://data.europa.eu/m8g/hasParticipant>
+  ], [
+    shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
+    shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
+    shacl:name "has time"@en;
+    shacl:path <http://www.w3.org/2006/time#hasTime>
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "The unambiguous structured reference for the Participation."@en;
+    shacl:name "identifier"@en;
+    shacl:path org:identifier
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "The function of an Agent within a Participation."@en;
+    shacl:name "role"@en;
+    shacl:path <http://data.europa.eu/m8g/role>
+  ];
+  shacl:targetClass <http://data.europa.eu/m8g/Participation> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#PublicEventShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:description "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."@en;
+    shacl:name "accessibility"@en;
+    shacl:path <http://data.europa.eu/m8g/accessibility>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "The target group of people for whom the Public Event is created."@en;
+    shacl:name "audience"@en;
+    shacl:path <http://data.europa.eu/m8g/audience>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/ContactPoint>;
+    shacl:description "The main contact information of the resource."@en;
+    shacl:name "contact point"@en;
+    shacl:path <http://data.europa.eu/m8g/contactPoint>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "A textual explanation of the Pulblic Event."@en;
+    shacl:name "description"@en;
+    shacl:path dc:description
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The sequence position of the Public Event."@en;
+    shacl:name "eventNumber"@en;
+    shacl:path <http://data.europa.eu/m8g/eventNumber>
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "The nature or genre of the Public Event. "@en;
+    shacl:name "event type"@en;
+    shacl:path dc:type
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "A plan of organisation or arrangement of the Public Event."@en;
+    shacl:name "format"@en;
+    shacl:path <http://data.europa.eu/m8g/format>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/PublicEvent>;
+    shacl:description "The Public Event that comes after this one."@en;
+    shacl:name "has next event"@en;
+    shacl:path <http://data.europa.eu/m8g/hasNextEvent>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/Participation>;
+    shacl:description "The way how a resource is organized."@en;
+    shacl:name "has participation"@en;
+    shacl:path <http://data.europa.eu/m8g/hasParticipation>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/PublicEvent>;
+    shacl:description "The Public Event that comes before this one."@en;
+    shacl:name "has previous event"@en;
+    shacl:path <http://data.europa.eu/m8g/hasPreviousEvent>
+  ], [
+    shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
+    shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
+    shacl:name "has time"@en;
+    shacl:path <http://www.w3.org/2006/time#hasTime>
+  ], [
+    shacl:class foaf:Document;
+    shacl:description "The website of the Public Event."@en;
+    shacl:name "homepage"@en;
+    shacl:path foaf:homepage
+  ], [
+    shacl:datatype rdfs:Literal;
+    shacl:description "The unambiguous structured reference for the Public Event."@en;
+    shacl:name "identifier"@en;
+    shacl:path dc:identifier
+  ], [
+    shacl:class dc:LinguisticSystem;
+    shacl:description "The language in which the Public Event is given."@en;
+    shacl:name "language"@en;
+    shacl:path dc:language
+  ], [
+    shacl:class <http://data.europa.eu/m8g/PublicEvent>;
+    shacl:description "A relation to another Public Event that encompasses it."@en;
+    shacl:name "parent event"@en;
+    shacl:path <http://data.europa.eu/m8g/parentEvent>
+  ], [
+    shacl:class foaf:Document;
+    shacl:description "A web page that provides means to attend the Public Event."@en;
+    shacl:name "registration page"@en;
+    shacl:path <http://data.europa.eu/m8g/registrationPage>
+  ], [
+    shacl:class <http://data.europa.eu/m8g/PublicEvent>;
+    shacl:description "A relation towards another Public Event that belong to it."@en;
+    shacl:name "sub event"@en;
+    shacl:path <http://data.europa.eu/m8g/subEvent>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "The name given to the Public Event."@en;
+    shacl:name "title"@en;
+    shacl:path dc:title
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "The subject of the Public Event."@en;
+    shacl:name "topic"@en;
+    shacl:path dc:subject
+  ];
+  shacl:targetClass <http://data.europa.eu/m8g/PublicEvent> .
+
+<https://semiceu.github.io//shacl/core-public-event-ap-SHACL_en#TemporalEntityShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:datatype rdf:langString;
+    shacl:description "A  textual representation of the Temporal Entity."@en;
+    shacl:name "description"@en;
+    shacl:path dc:description
+  ], [
+    shacl:class skos:Concept;
+    shacl:description "The recurrence of an instant or period."@en;
+    shacl:name "frequency"@en;
+    shacl:path <http://data.europa.eu/m8g/frequency>
+  ];
+  shacl:targetClass <http://www.w3.org/2006/time#TemporalEntity> .
