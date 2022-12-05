@@ -119,7 +119,7 @@
             "en": "The Agent involved in the Participation."
           },
           "sh:name": {
-            "en": "hasParticipant"
+            "en": "has participant"
           },
           "sh:path": "http://data.europa.eu/m8g/hasParticipant"
         },
@@ -207,7 +207,7 @@
             "en": "The sequence position of the Public Event."
           },
           "sh:name": {
-            "en": "eventNumber"
+            "en": "event number"
           },
           "sh:path": "http://data.europa.eu/m8g/eventNumber"
         },

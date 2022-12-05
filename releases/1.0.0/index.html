@@ -199,7 +199,7 @@
 <a href="https://github.com/SEMICeu/Core-Public-Event-Vocabulary/tree/master/releases/1.0.0">https://github.com/SEMICeu/Core-Public-Event-Vocabulary/tree/master/releases/1.0.0</a>
 
               </dd>
-              <!--<dt>Changelog</dt><dd><a href="git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git/blob/c32f6b55883b86d91eeee8a73559c33c3fc91d7d/CHANGELOG">git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git/blob/c32f6b55883b86d91eeee8a73559c33c3fc91d7d/CHANGELOG</a></dd>-->
+              <!--<dt>Changelog</dt><dd><a href="git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git/blob/40fbc41d93037c5ac59a88d7fab65c5c01233ead/CHANGELOG">git@uri.semic.eu-thema:SEMICeu/uri.semic.eu-thema.git/blob/40fbc41d93037c5ac59a88d7fab65c5c01233ead/CHANGELOG</a></dd>-->
               <dt>Feedback</dt><dd><a href="https://github.com/SEMICeu/Core-Public-Event-Vocabulary/issues">https://github.com/SEMICeu/Core-Public-Event-Vocabulary/issues</a></dd>
               <!--<dt>Registry of standards</dt><dd><a href="Core-Public-Event-Vocabulary">Core-Public-Event-Vocabulary</a></dd>-->
 
@@ -822,8 +822,8 @@ The datatype of poBox is indicated as Literal (keeping backward compatibility wi
 		     
                     <dd>For this entity the following properties are defined:
                       <a href="#Participation%3Adescription">description</a>, 
+                      <a href="#Participation%3Ahas%20participant">has participant</a>, 
                       <a href="#Participation%3Ahas%20time">has time</a>, 
-                      <a href="#Participation%3AhasParticipant">hasParticipant</a>, 
                       <a href="#Participation%3Aidentifier">identifier</a>, 
                       <a href="#Participation%3Arole">role</a>.</dd>
                     
@@ -863,6 +863,25 @@ The datatype of poBox is indicated as Literal (keeping backward compatibility wi
                         <td></td>
                       </tr>
                     
+                      <tr id="Participation%3Ahas%20participant" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasParticipant">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/hasParticipant" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/hasParticipant" data-placement="right">
+                            has participant</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Agent" data-placement="right">Agent</a>
+			    
+                          
+                        </td>
+                        <td property="rdfs:comment">The Agent involved in the Participation.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Participation%3Ahas%20time" typeof="rdfs:Property" resource="http://www.w3.org/2006/time#hasTime">
                         <td>
                           <code property="rdfs:label">
@@ -878,25 +897,6 @@ The datatype of poBox is indicated as Literal (keeping backward compatibility wi
                           
                         </td>
                         <td property="rdfs:comment">The association of a temporal entity (instant or interval) to any thing.</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Participation%3AhasParticipant" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasParticipant">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://data.europa.eu/m8g/hasParticipant" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/hasParticipant" data-placement="right">
-                            hasParticipant</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Agent" data-placement="right">Agent</a>
-			    
-                          
-                        </td>
-                        <td property="rdfs:comment">The Agent involved in the Participation.</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
@@ -962,8 +962,8 @@ eruptions.</dd>
                       <a href="#Public%20Event%3Aaudience">audience</a>, 
                       <a href="#Public%20Event%3Acontact%20point">contact point</a>, 
                       <a href="#Public%20Event%3Adescription">description</a>, 
+                      <a href="#Public%20Event%3Aevent%20number">event number</a>, 
                       <a href="#Public%20Event%3Aevent%20type">event type</a>, 
-                      <a href="#Public%20Event%3AeventNumber">eventNumber</a>, 
                       <a href="#Public%20Event%3Aformat">format</a>, 
                       <a href="#Public%20Event%3Ahas%20next%20event">has next event</a>, 
                       <a href="#Public%20Event%3Ahas%20participation">has participation</a>, 
@@ -1071,6 +1071,25 @@ eruptions.</dd>
                         <td></td>
                       </tr>
                     
+                      <tr id="Public%20Event%3Aevent%20number" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/eventNumber">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/eventNumber" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/eventNumber" data-placement="right">
+                            event number</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">Text</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">The sequence position of the Public Event.</td>
+                        <td property="skos:scopeNote">Examples could be the ''4th" or "2022".</td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Public%20Event%3Aevent%20type" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
                         <td>
                           <code property="rdfs:label">
@@ -1090,25 +1109,6 @@ eruptions.</dd>
 
 An existing classification from Publications Office could be used, see <a href="
 https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/public-event-type">Public Event Type</a>.</td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Public%20Event%3AeventNumber" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/eventNumber">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://data.europa.eu/m8g/eventNumber" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/eventNumber" data-placement="right">
-                            eventNumber</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">Text</a>
-                            
-                          
-                        </td>
-                        <td property="rdfs:comment">The sequence position of the Public Event.</td>
-                        <td property="skos:scopeNote">Examples could be the ''4th" or "2022".</td>
                         <td></td>
                       </tr>
                     

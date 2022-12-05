@@ -134,7 +134,7 @@
   ], [
     shacl:class foaf:Agent;
     shacl:description "The Agent involved in the Participation."@en;
-    shacl:name "hasParticipant"@en;
+    shacl:name "has participant"@en;
     shacl:path <http://data.europa.eu/m8g/hasParticipant>
   ], [
     shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
@@ -179,7 +179,7 @@
   ], [
     shacl:datatype rdf:langString;
     shacl:description "The sequence position of the Public Event."@en;
-    shacl:name "eventNumber"@en;
+    shacl:name "event number"@en;
     shacl:path <http://data.europa.eu/m8g/eventNumber>
   ], [
     shacl:class skos:Concept;
