@@ -57,10 +57,10 @@
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
-    "Agent.identifier": {
+    "Agent.address": {
       "@container": "@set",
-      "@id": "http://purl.org/dc/terms/identifier",
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      "@id": "http://w3.org/ns/locn#address",
+      "@type": "@id"
     },
     "Agent.name": {
       "@container": "@set",
@@ -70,6 +70,11 @@
     "Agent.participates": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/participates",
+      "@type": "@id"
+    },
+    "Agent.type": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/type",
       "@type": "@id"
     },
     "ContactPoint": "http://data.europa.eu/m8g/ContactPoint",
@@ -129,6 +134,11 @@
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/accessibility",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "PublicEvent.address": {
+      "@container": "@set",
+      "@id": "http://w3.org/ns/locn#address",
+      "@type": "@id"
     },
     "PublicEvent.audience": {
       "@container": "@set",

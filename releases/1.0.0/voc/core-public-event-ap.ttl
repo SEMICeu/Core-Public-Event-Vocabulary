@@ -9,57 +9,37 @@
 
 <http://data.europa.eu/m8g/accessibility> a owl:DatatypeProperty;
   <http://purl.org/vocab/vann/usageNote> "This property may be provided in multiple languages with multiple instances of the accessibility property."@en;
-  rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdf:langString .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/audience> a owl:ObjectProperty;
-  rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/contactPage> a owl:ObjectProperty;
-  rdfs:domain <http://data.europa.eu/m8g/ContactPoint>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range foaf:Document .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/email> a owl:DatatypeProperty;
-  rdfs:domain <http://data.europa.eu/m8g/ContactPoint>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdfs:Literal .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/eventNumber> a owl:DatatypeProperty;
   <http://purl.org/vocab/vann/usageNote> "Examples could be the ''4th\" or \"2022\"."@en;
-  rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdf:langString .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/format> a owl:ObjectProperty;
   <http://purl.org/vocab/vann/usageNote> "Examples include conference call, physical meeting or hybrid."@en;
-  rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/frequency> a owl:ObjectProperty;
   <http://purl.org/vocab/vann/usageNote> "It is recommended to use the frequency from an existing vocabulary like the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/frequency\">Frequency</a> from the Publications Office."@en;
-  rdfs:domain <http://www.w3.org/2006/time#TemporalEntity>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/registrationPage> a owl:ObjectProperty;
-  rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range foaf:Document .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/role> a owl:ObjectProperty;
-  rdfs:domain <http://data.europa.eu/m8g/Participation>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/telephone> a owl:DatatypeProperty;
-  rdfs:domain <http://data.europa.eu/m8g/ContactPoint>;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdfs:Literal .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
 
 <http://data.europa.eu/m8g/Participation> a owl:Class;
   rdfs:isDefinedBy <http://data.europa.eu/m8g> .
@@ -94,6 +74,9 @@ dc:title a rdf:Property;
 dc:type a rdf:Property;
   rdfs:label "event type"@en .
 
+<http://w3.org/ns/locn#address> a rdf:Property;
+  rdfs:label "address"@en .
+
 foaf:homepage a rdf:Property;
   rdfs:label "homepage"@en .
 
@@ -121,6 +104,7 @@ foaf:homepage a rdf:Property;
     foaf:name "Semantic Interoperability Community (SEMIC)"
   ];
   rdfs:seeAlso foaf:homepage,
+    <http://w3.org/ns/locn#address>,
     dc:type,
     dc:title,
     dc:subject,
