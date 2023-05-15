@@ -94,6 +94,9 @@ dc:title a rdf:Property;
 dc:type a rdf:Property;
   rdfs:label "event type"@en .
 
+<http://w3.org/ns/locn#address> a rdf:Property;
+  rdfs:label "address"@en .
+
 foaf:homepage a rdf:Property;
   rdfs:label "homepage"@en .
 
@@ -120,41 +123,22 @@ foaf:homepage a rdf:Property;
     foaf:homepage <https://semic.eu>;
     foaf:name "Semantic Interoperability Community (SEMIC)"
   ];
-  rdfs:seeAlso foaf:homepage,
-    dc:type,
-    dc:title,
-    dc:subject,
-    dc:language,
-    dc:identifier,
-    dc:description,
-    <http://data.europa.eu/m8g/subEvent>,
-    <http://data.europa.eu/m8g/parentEvent>,
+  rdfs:seeAlso <http://data.europa.eu/m8g/hasNextEvent>,
     <http://data.europa.eu/m8g/hasPreviousEvent>,
-    <http://data.europa.eu/m8g/hasNextEvent>;
+    <http://data.europa.eu/m8g/parentEvent>,
+    <http://data.europa.eu/m8g/subEvent>,
+    dc:description,
+    dc:identifier,
+    dc:language,
+    dc:subject,
+    dc:title,
+    dc:type,
+    <http://w3.org/ns/locn#address>,
+    foaf:homepage;
   <http://www.w3.org/2001/02pd/rec54#editor> [
     a foaf:Person;
-    foaf:firstName "Bert";
-    foaf:lastName "Van Nuffelen";
-    schemas:affiliation [foaf:name "TenForce"]
-  ], [
-    a foaf:Person;
-    foaf:firstName "Emidio";
-    foaf:lastName "Stani";
-    schemas:affiliation [foaf:name "PwC EU Services"]
-  ], [
-    a foaf:Person;
-    foaf:firstName "Dimitri";
-    foaf:lastName "Schepers";
-    schemas:affiliation [foaf:name "PwC EU Services"]
-  ], [
-    a foaf:Person;
-    foaf:firstName "Pavlina";
-    foaf:lastName "Fragkou";
-    schemas:affiliation [foaf:name "European Commission"]
-  ], [
-    a foaf:Person;
-    foaf:firstName "Michiel";
-    foaf:lastName "De Keyzer";
+    foaf:firstName "Florian";
+    foaf:lastName "Barthelemy";
     schemas:affiliation [foaf:name "PwC EU Services"]
   ], [
     a foaf:Person;
@@ -163,9 +147,29 @@ foaf:homepage a rdf:Property;
     schemas:affiliation [foaf:name "PwC EU Services"]
   ], [
     a foaf:Person;
-    foaf:firstName "Florian";
-    foaf:lastName "Barthelemy";
+    foaf:firstName "Michiel";
+    foaf:lastName "De Keyzer";
     schemas:affiliation [foaf:name "PwC EU Services"]
+  ], [
+    a foaf:Person;
+    foaf:firstName "Pavlina";
+    foaf:lastName "Fragkou";
+    schemas:affiliation [foaf:name "European Commission"]
+  ], [
+    a foaf:Person;
+    foaf:firstName "Dimitri";
+    foaf:lastName "Schepers";
+    schemas:affiliation [foaf:name "PwC EU Services"]
+  ], [
+    a foaf:Person;
+    foaf:firstName "Emidio";
+    foaf:lastName "Stani";
+    schemas:affiliation [foaf:name "PwC EU Services"]
+  ], [
+    a foaf:Person;
+    foaf:firstName "Bert";
+    foaf:lastName "Van Nuffelen";
+    schemas:affiliation [foaf:name "TenForce"]
   ];
   foaf:maker [
     a foaf:Person;
