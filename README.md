@@ -1,5 +1,5 @@
 ![SEMIC Core Vocabulary](/semic-icon-small.png)
-# Core-Public-Event-Vocabulary
+# Core-Public-Event-Vocabulary (CPEV)
 
 This is the repository for the development and maintenance of the Core Public Event Vocabulary. 
 
