@@ -6,7 +6,7 @@ This document describes the (major) changes to [the current version 1.0.0](https
 
 All of the changes were discussed and approved during the [webinar](https://joinup.ec.europa.eu/collection/semic-support-centre/event/webinar-review-core-vocabularies) of 27/10/2023.
 
-## Detailed changes from v2.1.0 to v2.1.1
+## Detailed changes from v1.0.0 to v1.1.0
 
 The table below gives an overview of the classes (and their definitions) within both data models. Classes that are related are juxta-positioned.
 
