@@ -20,6 +20,7 @@ The table below gives an overview of the classes (and their definitions) within 
 
 | Nr | Core Public Event Vocabulary v1.0.0 | Core Public Event Vocabulary v1.1.0 | Rationale | GitHub / Change |
 | --- | --- | --- | --- | --- |
+| - | - | ReSpec Styling has been applied to the specification.| - | - |
 | P1 | PublicEvent:eventStatus | PublicEvent:eventStatus | Addition of an eventStatus property using the [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545) code list, with an appropriate usage note to model it correctly. | [#25](https://github.com/SEMICeu/Core-Public-Event-Vocabulary/issues/25) |
 | P2 | - | PublicEvent:expectedNumberOfParticipants | The property is added to better model statistic of the event. | [#7](https://github.com/SEMICeu/Core-Public-Event-Vocabulary/issues/7) |
 | P3 | PublicEvent:hasParticipation | PublicEvent:hasParticipation | Instances of the property can be counter to better model statistic of the event. | [#7](https://github.com/SEMICeu/Core-Public-Event-Vocabulary/issues/7) |
