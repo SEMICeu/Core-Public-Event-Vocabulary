@@ -108,36 +108,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/0c404fa56c64463c15f65878d02efa16eec065b0",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.hasemail",
-          "sh:description": {
-            "en": "An electronic address through which the Contact Point can be contacted."
-          },
-          "sh:name": {
-            "en": "has email"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://data.europa.eu/m8g/email",
-          "vl:message": {
-            "en": "The expected value for has email is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/2c2e861c64607bcf2ba7176ce18df71cc690e57e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.availabilityrestriction",
-          "sh:description": {
-            "en": "The time during which the Contact Point is not available."
-          },
-          "sh:name": {
-            "en": "availability restriction"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/specialOpeningHoursSpecification",
-          "vl:message": {
-            "en": "The expected value for availability restriction is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.openinghours",
           "sh:class": "http://www.w3.org/2006/time#TemporalEntity",
@@ -147,40 +117,7 @@
           "sh:name": {
             "en": "opening hours"
           },
-          "sh:path": "http://data.europa.eu/m8g/openingHours",
-          "vl:message": {
-            "en": "The range of opening hours must be of type <http://www.w3.org/2006/time#TemporalEntity>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/8547f9fea103d51b54d608cf10f98b003fde7378",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.hastelephone",
-          "sh:description": {
-            "en": "A telephone number through which the Contact Point can be contacted."
-          },
-          "sh:name": {
-            "en": "has telephone"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://data.europa.eu/m8g/telephone",
-          "vl:message": {
-            "en": "The expected value for has telephone is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/939028c42179e18627eac7954154b35dbc9c5a42",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.openinghours",
-          "sh:description": {
-            "en": "The time at which the Contact Point is normally available."
-          },
-          "sh:name": {
-            "en": "opening hours"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/openingHours",
-          "vl:message": {
-            "en": "The expected value for opening hours is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/openingHours"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/95cf5318d1604f72f1c5d4d22a360ce268437bf0",
@@ -192,10 +129,7 @@
           "sh:name": {
             "en": "contact page"
           },
-          "sh:path": "http://data.europa.eu/m8g/contactPage",
-          "vl:message": {
-            "en": "The range of contact page must be of type <http://xmlns.com/foaf/0.1/Document>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/contactPage"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d",
@@ -207,25 +141,7 @@
           "sh:name": {
             "en": "availability restriction"
           },
-          "sh:path": "http://data.europa.eu/m8g/specialOpeningHoursSpecification",
-          "vl:message": {
-            "en": "The range of availability restriction must be of type <http://www.w3.org/2006/time#TemporalEntity>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/a736c4b01ea7557518c0c146f3e311947ce00ccc",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.contactpage",
-          "sh:description": {
-            "en": "A web page that could be used to reach out the Contact Point."
-          },
-          "sh:name": {
-            "en": "contact page"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/contactPage",
-          "vl:message": {
-            "en": "The expected value for contact page is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/specialOpeningHoursSpecification"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/ContactPoint"
@@ -236,81 +152,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/3051580b93f948a2fd295c9665c862326364c1f2",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hasparticipant",
-          "sh:description": {
-            "en": "The Agent involved in the Participation."
-          },
-          "sh:name": {
-            "en": "has participant"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/hasParticipant",
-          "vl:message": {
-            "en": "The expected value for has participant is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/6cae9880e515253132af1452a38a8a5827165149",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description",
-          "sh:description": {
-            "en": "A textual explanation of the Participation."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The expected value for description is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/768bb4171e00505886fe9a1e949b4cd71f0eb548",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description",
-          "sh:description": {
-            "en": "A textual explanation of the Participation."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for description"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/91fca326def04ee4ef7ed1efba4e59fae00d1faa",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.role",
-          "sh:description": {
-            "en": "The function of an Agent within a Participation."
-          },
-          "sh:name": {
-            "en": "role"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/role",
-          "vl:message": {
-            "en": "The expected value for role is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hastime",
-          "sh:description": {
-            "en": "The association of a temporal entity (instant or interval) to any thing."
-          },
-          "sh:name": {
-            "en": "has time"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://www.w3.org/2006/time#hasTime",
-          "vl:message": {
-            "en": "The expected value for has time is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hasparticipant",
           "sh:class": "http://xmlns.com/foaf/0.1/Agent",
@@ -320,25 +161,7 @@
           "sh:name": {
             "en": "has participant"
           },
-          "sh:path": "http://data.europa.eu/m8g/hasParticipant",
-          "vl:message": {
-            "en": "The range of has participant must be of type <http://xmlns.com/foaf/0.1/Agent>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/aadbd67a77a624f073be2076627fb9dc883cbe48",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.identifier",
-          "sh:description": {
-            "en": "The unambiguous structured reference for the Participation."
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/identifier",
-          "vl:message": {
-            "en": "The expected value for identifier is a Literal"
-          }
+          "sh:path": "http://data.europa.eu/m8g/hasParticipant"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/cada7eccaa037221e39ca22ee97ce689067db260",
@@ -350,10 +173,7 @@
           "sh:name": {
             "en": "has time"
           },
-          "sh:path": "http://www.w3.org/2006/time#hasTime",
-          "vl:message": {
-            "en": "The range of has time must be of type <http://www.w3.org/2006/time#TemporalEntity>."
-          }
+          "sh:path": "http://www.w3.org/2006/time#hasTime"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d2254b8259635ec986bc7c65b0227299193c6c16",
@@ -365,10 +185,7 @@
           "sh:name": {
             "en": "role"
           },
-          "sh:path": "http://data.europa.eu/m8g/role",
-          "vl:message": {
-            "en": "The range of role must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/role"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
@@ -380,10 +197,7 @@
           "sh:name": {
             "en": "description"
           },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
+          "sh:path": "http://purl.org/dc/terms/description"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/Participation"
@@ -403,10 +217,7 @@
           "sh:name": {
             "en": "accessibility"
           },
-          "sh:path": "http://data.europa.eu/m8g/accessibility",
-          "vl:message": {
-            "en": "The range of accessibility must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/accessibility"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/16285f673032fe44252d7b61d21e729d2b9b1223",
@@ -418,10 +229,7 @@
           "sh:name": {
             "en": "event number"
           },
-          "sh:path": "http://data.europa.eu/m8g/eventNumber",
-          "vl:message": {
-            "en": "The range of event number must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/eventNumber"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/20bc04426dbee3b451abd55c4acaef748eceea6b",
@@ -433,10 +241,7 @@
           "sh:name": {
             "en": "sub event"
           },
-          "sh:path": "http://data.europa.eu/m8g/subEvent",
-          "vl:message": {
-            "en": "The range of sub event must be of type <http://data.europa.eu/m8g/PublicEvent>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/subEvent"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2",
@@ -448,25 +253,7 @@
           "sh:name": {
             "en": "language"
           },
-          "sh:path": "http://purl.org/dc/terms/language",
-          "vl:message": {
-            "en": "The range of language must be of type <http://purl.org/dc/terms/LinguisticSystem>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2c7d994dd540f92c116cac913e2aa5d588945f1f",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.address",
-          "sh:description": {
-            "en": "Associates any Resource with the corresponding Address."
-          },
-          "sh:name": {
-            "en": "address"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://www.w3.org/ns/locn#address",
-          "vl:message": {
-            "en": "The expected value for address is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://purl.org/dc/terms/language"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2cb200f381117ea8ae3d2b4a707a0911e34f1e42",
@@ -478,25 +265,7 @@
           "sh:name": {
             "en": "has previous event"
           },
-          "sh:path": "http://data.europa.eu/m8g/hasPreviousEvent",
-          "vl:message": {
-            "en": "The range of has previous event must be of type <http://data.europa.eu/m8g/PublicEvent>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2f3b81f67ea7974ddeb1e8dad2843315af765178",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber",
-          "sh:description": {
-            "en": "The sequence position of the Public Event."
-          },
-          "sh:name": {
-            "en": "event number"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://data.europa.eu/m8g/eventNumber",
-          "vl:message": {
-            "en": "The expected value for event number is a Literal"
-          }
+          "sh:path": "http://data.europa.eu/m8g/hasPreviousEvent"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/339699b2aa9f50f959f3abe739c4460719ee0137",
@@ -508,10 +277,7 @@
           "sh:name": {
             "en": "registration page"
           },
-          "sh:path": "http://data.europa.eu/m8g/registrationPage",
-          "vl:message": {
-            "en": "The range of registration page must be of type <http://xmlns.com/foaf/0.1/Document>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/registrationPage"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/3bf2eb83d98691f70dec4cad53a6df0a567a38a2",
@@ -523,25 +289,7 @@
           "sh:name": {
             "en": "has next event"
           },
-          "sh:path": "http://data.europa.eu/m8g/hasNextEvent",
-          "vl:message": {
-            "en": "The range of has next event must be of type <http://data.europa.eu/m8g/PublicEvent>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/46f7602f331752aea8befe40e824e92bbe80bff1",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.haspreviousevent",
-          "sh:description": {
-            "en": "The Public Event that comes before this one."
-          },
-          "sh:name": {
-            "en": "has previous event"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/hasPreviousEvent",
-          "vl:message": {
-            "en": "The expected value for has previous event is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/hasNextEvent"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859",
@@ -553,40 +301,7 @@
           "sh:name": {
             "en": "title"
           },
-          "sh:path": "http://purl.org/dc/terms/title",
-          "vl:message": {
-            "en": "The range of title must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/49e1aa64f95925adbd68426e0eb6ceea8157201a",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.accessibility",
-          "sh:description": {
-            "en": "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."
-          },
-          "sh:name": {
-            "en": "accessibility"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://data.europa.eu/m8g/accessibility",
-          "vl:message": {
-            "en": "The expected value for accessibility is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5dceacf42e9454591d860e4da0af1f645a64f089",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.topic",
-          "sh:description": {
-            "en": "The subject of the Public Event."
-          },
-          "sh:name": {
-            "en": "topic"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://purl.org/dc/terms/subject",
-          "vl:message": {
-            "en": "The expected value for topic is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://purl.org/dc/terms/title"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5de4ef5193a558e17a34633888421d09b957d267",
@@ -598,10 +313,7 @@
           "sh:name": {
             "en": "address"
           },
-          "sh:path": "http://www.w3.org/ns/locn#address",
-          "vl:message": {
-            "en": "The range of address must be of type <http://www.w3.org/ns/locn#Address>."
-          }
+          "sh:path": "http://www.w3.org/ns/locn#address"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/61939252d652587b0311b448f67c71e42ce5a328",
@@ -613,55 +325,7 @@
           "sh:name": {
             "en": "event type"
           },
-          "sh:path": "http://purl.org/dc/terms/type",
-          "vl:message": {
-            "en": "The range of event type must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/67f6021dd77f222dd1a17470fe84aa73194a096b",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventstatus",
-          "sh:description": {
-            "en": " This property defines the overall status of the event."
-          },
-          "sh:name": {
-            "en": "event status"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/eventStatus",
-          "vl:message": {
-            "en": "The expected value for event status is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/68afc3670a223762319f7c50b588dda99a66556e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasnextevent",
-          "sh:description": {
-            "en": "The Public Event that comes after this one."
-          },
-          "sh:name": {
-            "en": "has next event"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/hasNextEvent",
-          "vl:message": {
-            "en": "The expected value for has next event is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/6cae9880e515253132af1452a38a8a5827165149",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description",
-          "sh:description": {
-            "en": "A textual explanation of the Pulblic Event."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The expected value for description is a Literal"
-          }
+          "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/70d43b8fb57f95387e8e11632149c854bb6b1dd1",
@@ -673,10 +337,7 @@
           "sh:name": {
             "en": "parent event"
           },
-          "sh:path": "http://data.europa.eu/m8g/parentEvent",
-          "vl:message": {
-            "en": "The range of parent event must be of type <http://data.europa.eu/m8g/PublicEvent>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/parentEvent"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/737cd5f1c9f0e13c35eb82b7f0d2b2f76a9a82c7",
@@ -688,25 +349,7 @@
           "sh:name": {
             "en": "format"
           },
-          "sh:path": "http://data.europa.eu/m8g/format",
-          "vl:message": {
-            "en": "The range of format must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/768bb4171e00505886fe9a1e949b4cd71f0eb548",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description",
-          "sh:description": {
-            "en": "A textual explanation of the Pulblic Event."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for description"
-          }
+          "sh:path": "http://data.europa.eu/m8g/format"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/787317eaad35993e463b5acf56b76915f2814352",
@@ -718,10 +361,7 @@
           "sh:name": {
             "en": "expected number of participants"
           },
-          "sh:path": "http://data.europa.eu/m8g/expectedNumberOfParticipants",
-          "vl:message": {
-            "en": "The range of expected number of participants must be of type <http://www.w3.org/2001/XMLSchema#integer>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/expectedNumberOfParticipants"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/7b6713c1f4a52e964f5db57eabef294b6d04e90e",
@@ -733,70 +373,7 @@
           "sh:name": {
             "en": "contact point"
           },
-          "sh:path": "http://data.europa.eu/m8g/contactPoint",
-          "vl:message": {
-            "en": "The range of contact point must be of type <http://data.europa.eu/m8g/ContactPoint>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/8d36a62f83db7f94097e27edb51306e17e0d40f3",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.homepage",
-          "sh:description": {
-            "en": "The website of the Public Event."
-          },
-          "sh:name": {
-            "en": "homepage"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://xmlns.com/foaf/0.1/homepage",
-          "vl:message": {
-            "en": "The expected value for homepage is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/922ee210f3ed1fe9e721ba4f7c1d63829f9fabae",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.subevent",
-          "sh:description": {
-            "en": "A relation towards another Public Event that belong to it."
-          },
-          "sh:name": {
-            "en": "sub event"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/subEvent",
-          "vl:message": {
-            "en": "The expected value for sub event is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/92d65d33f2a5d5345f1980ffd0cf304e47dd0caf",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title",
-          "sh:description": {
-            "en": "The name given to the Public Event."
-          },
-          "sh:name": {
-            "en": "title"
-          },
-          "sh:path": "http://purl.org/dc/terms/title",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for title"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9adf9f5890592909cf3e67021ae7ab4f895a7745",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.contactpoint",
-          "sh:description": {
-            "en": "The main contact information of the resource."
-          },
-          "sh:name": {
-            "en": "contact point"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/contactPoint",
-          "vl:message": {
-            "en": "The expected value for contact point is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/contactPoint"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9c5181d03e1e48344598a8c12da20a1ca35c3ccd",
@@ -808,55 +385,7 @@
           "sh:name": {
             "en": "event status"
           },
-          "sh:path": "http://data.europa.eu/m8g/eventStatus",
-          "vl:message": {
-            "en": "The range of event status must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a0073c2660e40c6179064cf89098b3a86f12d11c",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.parentevent",
-          "sh:description": {
-            "en": "A relation to another Public Event that encompasses it."
-          },
-          "sh:name": {
-            "en": "parent event"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/parentEvent",
-          "vl:message": {
-            "en": "The expected value for parent event is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hastime",
-          "sh:description": {
-            "en": "The association of a temporal entity (instant or interval) to any thing."
-          },
-          "sh:name": {
-            "en": "has time"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://www.w3.org/2006/time#hasTime",
-          "vl:message": {
-            "en": "The expected value for has time is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/aadbd67a77a624f073be2076627fb9dc883cbe48",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.identifier",
-          "sh:description": {
-            "en": "The unambiguous structured reference for the Public Event."
-          },
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/identifier",
-          "vl:message": {
-            "en": "The expected value for identifier is a Literal"
-          }
+          "sh:path": "http://data.europa.eu/m8g/eventStatus"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/b286acdfe0b19f7dc16a064e5a7cbef868a32621",
@@ -868,25 +397,7 @@
           "sh:name": {
             "en": "topic"
           },
-          "sh:path": "http://purl.org/dc/terms/subject",
-          "vl:message": {
-            "en": "The range of topic must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/c1577bd231c71b0b1910272999755d3414867cfd",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.format",
-          "sh:description": {
-            "en": "A plan of organisation or arrangement of the Public Event."
-          },
-          "sh:name": {
-            "en": "format"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/format",
-          "vl:message": {
-            "en": "The expected value for format is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://purl.org/dc/terms/subject"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/cada7eccaa037221e39ca22ee97ce689067db260",
@@ -898,40 +409,7 @@
           "sh:name": {
             "en": "has time"
           },
-          "sh:path": "http://www.w3.org/2006/time#hasTime",
-          "vl:message": {
-            "en": "The range of has time must be of type <http://www.w3.org/2006/time#TemporalEntity>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d0b938b45807eff5bd0a6a6ba6766085347c42d4",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber",
-          "sh:description": {
-            "en": "The sequence position of the Public Event."
-          },
-          "sh:name": {
-            "en": "event number"
-          },
-          "sh:path": "http://data.europa.eu/m8g/eventNumber",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for event number"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d31c90c0b38d8f79fa882c73a097db3e9ca00be4",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.audience",
-          "sh:description": {
-            "en": "The target group of people for whom the Public Event is created."
-          },
-          "sh:name": {
-            "en": "audience"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/audience",
-          "vl:message": {
-            "en": "The expected value for audience is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://www.w3.org/2006/time#hasTime"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
@@ -943,85 +421,7 @@
           "sh:name": {
             "en": "description"
           },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d5d74574f70f9a979535f3624608f88180dd0c97",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title",
-          "sh:description": {
-            "en": "The name given to the Public Event."
-          },
-          "sh:name": {
-            "en": "title"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/title",
-          "vl:message": {
-            "en": "The expected value for title is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/db878f1cb93930f64561d0504123c66feacfad5a",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.language",
-          "sh:description": {
-            "en": "The language in which the Public Event is given."
-          },
-          "sh:name": {
-            "en": "language"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://purl.org/dc/terms/language",
-          "vl:message": {
-            "en": "The expected value for language is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8589eaee31141b030604250a72f3fd359c8618d",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.accessibility",
-          "sh:description": {
-            "en": "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."
-          },
-          "sh:name": {
-            "en": "accessibility"
-          },
-          "sh:path": "http://data.europa.eu/m8g/accessibility",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for accessibility"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8cf65c00b687cfb7b05e0091cb571b33559d8b8",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.expectednumberofparticipants",
-          "sh:description": {
-            "en": "The number of participants expected to participate in the event."
-          },
-          "sh:name": {
-            "en": "expected number of participants"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://data.europa.eu/m8g/expectedNumberOfParticipants",
-          "vl:message": {
-            "en": "The expected value for expected number of participants is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/ef2c104f9bc5019523318900356723ac0a8500e2",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasparticipation",
-          "sh:description": {
-            "en": "The way how a resource is organized."
-          },
-          "sh:name": {
-            "en": "has participation"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/hasParticipation",
-          "vl:message": {
-            "en": "The expected value for has participation is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f2ea23ea7d2e48da98de5a4a76dc3d86501b02b9",
@@ -1033,40 +433,7 @@
           "sh:name": {
             "en": "audience"
           },
-          "sh:path": "http://data.europa.eu/m8g/audience",
-          "vl:message": {
-            "en": "The range of audience must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f7de0a740d52fdaf8ea9366099bd148ca7d398bf",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.registrationpage",
-          "sh:description": {
-            "en": "A web page that provides means to attend the Public Event."
-          },
-          "sh:name": {
-            "en": "registration page"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/registrationPage",
-          "vl:message": {
-            "en": "The expected value for registration page is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f8e703ac623d1a44103d35b9a35a7ef0284366b9",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventtype",
-          "sh:description": {
-            "en": "The nature or genre of the Public Event. "
-          },
-          "sh:name": {
-            "en": "event type"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://purl.org/dc/terms/type",
-          "vl:message": {
-            "en": "The expected value for event type is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/audience"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb0f4ce42568457dd68730013f20f7749a22ad39",
@@ -1078,10 +445,7 @@
           "sh:name": {
             "en": "has participation"
           },
-          "sh:path": "http://data.europa.eu/m8g/hasParticipation",
-          "vl:message": {
-            "en": "The range of has participation must be of type <http://data.europa.eu/m8g/Participation>."
-          }
+          "sh:path": "http://data.europa.eu/m8g/hasParticipation"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb8568b313de736f9184db23272b6317700e9e7e",
@@ -1093,10 +457,7 @@
           "sh:name": {
             "en": "homepage"
           },
-          "sh:path": "http://xmlns.com/foaf/0.1/homepage",
-          "vl:message": {
-            "en": "The range of homepage must be of type <http://xmlns.com/foaf/0.1/Document>."
-          }
+          "sh:path": "http://xmlns.com/foaf/0.1/homepage"
         }
       ],
       "sh:targetClass": "http://data.europa.eu/m8g/PublicEvent"
@@ -1151,55 +512,7 @@
           "sh:name": {
             "en": "frequency"
           },
-          "sh:path": "http://data.europa.eu/m8g/frequency",
-          "vl:message": {
-            "en": "The range of frequency must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/63a8cf23801ef605734507c621693524f22476dd",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.frequency",
-          "sh:description": {
-            "en": "The recurrence of an instant or period."
-          },
-          "sh:name": {
-            "en": "frequency"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/frequency",
-          "vl:message": {
-            "en": "The expected value for frequency is a rdfs:Resource (URI or blank node)"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/6cae9880e515253132af1452a38a8a5827165149",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description",
-          "sh:description": {
-            "en": "A  textual representation of the Temporal Entity."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The expected value for description is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/768bb4171e00505886fe9a1e949b4cd71f0eb548",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description",
-          "sh:description": {
-            "en": "A  textual representation of the Temporal Entity."
-          },
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for description"
-          }
+          "sh:path": "http://data.europa.eu/m8g/frequency"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
@@ -1211,10 +524,7 @@
           "sh:name": {
             "en": "description"
           },
-          "sh:path": "http://purl.org/dc/terms/description",
-          "vl:message": {
-            "en": "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
+          "sh:path": "http://purl.org/dc/terms/description"
         }
       ],
       "sh:targetClass": "http://www.w3.org/2006/time#TemporalEntity"
@@ -1225,36 +535,6 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/006de06965023999963c4307153479c8629991d9",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname",
-          "sh:description": {
-            "en": "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."
-          },
-          "sh:name": {
-            "en": "locator name"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#locatorName",
-          "vl:message": {
-            "en": "The expected value for locator name is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/03690748629ed1c685fc6a365780375be09bce76",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1",
-          "sh:description": {
-            "en": "The name of the uppermost level of the address, almost always a country."
-          },
-          "sh:name": {
-            "en": "administrative unit level 1"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for administrative unit level 1"
-          }
-        },
-        {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1264,25 +544,7 @@
           "sh:name": {
             "en": "thoroughfare"
           },
-          "sh:path": "http://www.w3.org/ns/locn#thoroughfare",
-          "vl:message": {
-            "en": "The range of thoroughfare must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/256ffe464f9c7682e950f7853ef0b6060580435b",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2",
-          "sh:description": {
-            "en": "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."
-          },
-          "sh:name": {
-            "en": "administrative unit level 2"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2",
-          "vl:message": {
-            "en": "The expected value for administrative unit level 2 is a Literal"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/362b7c3261b1d5eb024e72e4868babc25ed0c7ce",
@@ -1294,25 +556,7 @@
           "sh:name": {
             "en": "administrative unit level 1"
           },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1",
-          "vl:message": {
-            "en": "The range of administrative unit level 1 must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/3a0fcecd9e5f4e8deb4d102b9d072a4b067b773e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress",
-          "sh:description": {
-            "en": "The complete address written as a string."
-          },
-          "sh:name": {
-            "en": "full address"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#fullAddress",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for full address"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/470060a15e97aeacd56fcc5beb701e647a6aa56e",
@@ -1324,25 +568,7 @@
           "sh:name": {
             "en": "address area"
           },
-          "sh:path": "http://www.w3.org/ns/locn#addressArea",
-          "vl:message": {
-            "en": "The range of address area must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/6f98d6d917a0e0b73d8614923f953e1ee2533918",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname",
-          "sh:description": {
-            "en": "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."
-          },
-          "sh:name": {
-            "en": "locator name"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#locatorName",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for locator name"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/854a17171901a9c000eff34a7ccd77814891e3d5",
@@ -1354,40 +580,7 @@
           "sh:name": {
             "en": "administrative unit level 2"
           },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2",
-          "vl:message": {
-            "en": "The range of administrative unit level 2 must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/8b4c4bdd61e921f78483a3141338773693d4b2ef",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressID",
-          "sh:description": {
-            "en": "A globally unique identifier for each instance of an Address."
-          },
-          "sh:name": {
-            "en": "address ID"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#addressId",
-          "vl:message": {
-            "en": "The expected value for address ID is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9097b947404def8604330ec2fc5a0bd405128b35",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatordesignator",
-          "sh:description": {
-            "en": "A number or sequence of characters that uniquely identifies the locator within the relevant scope."
-          },
-          "sh:name": {
-            "en": "locator designator"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator",
-          "vl:message": {
-            "en": "The expected value for locator designator is a Literal"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/98016263ed1fd03fc2066e397f3ae3343ce3bf79",
@@ -1399,145 +592,7 @@
           "sh:name": {
             "en": "post name"
           },
-          "sh:path": "http://www.w3.org/ns/locn#postName",
-          "vl:message": {
-            "en": "The range of post name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9aaaf1750887d905949d78ac718f18c02809a28e",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1",
-          "sh:description": {
-            "en": "The name of the uppermost level of the address, almost always a country."
-          },
-          "sh:name": {
-            "en": "administrative unit level 1"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1",
-          "vl:message": {
-            "en": "The expected value for administrative unit level 1 is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c278b09ca17b0ef710224829c0354dc4c2f9a40",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postofficebox",
-          "sh:description": {
-            "en": "A location designator for a postal delivery point at a post office, usually a number."
-          },
-          "sh:name": {
-            "en": "post office box"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#poBox",
-          "vl:message": {
-            "en": "The expected value for post office box is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c2d6af39a55e5e6a76f6b852bbcbada029c21af",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress",
-          "sh:description": {
-            "en": "The complete address written as a string."
-          },
-          "sh:name": {
-            "en": "full address"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#fullAddress",
-          "vl:message": {
-            "en": "The expected value for full address is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/a9a46434014b93624ab68c9a56a5bc66a38da9a4",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname",
-          "sh:description": {
-            "en": "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."
-          },
-          "sh:name": {
-            "en": "post name"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#postName",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for post name"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/aa9622c05f497ef1b06496716742dd5cbfc6f0c9",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare",
-          "sh:description": {
-            "en": "The name of a passage or way through from one location to another."
-          },
-          "sh:name": {
-            "en": "thoroughfare"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#thoroughfare",
-          "vl:message": {
-            "en": "The expected value for thoroughfare is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ac2d62a08fd924f88a79f0e70cda9fca4d484fd2",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare",
-          "sh:description": {
-            "en": "The name of a passage or way through from one location to another."
-          },
-          "sh:name": {
-            "en": "thoroughfare"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#thoroughfare",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for thoroughfare"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ae24e9fc95115753cabe5ad6bd3c05b9751cd13c",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2",
-          "sh:description": {
-            "en": "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."
-          },
-          "sh:name": {
-            "en": "administrative unit level 2"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for administrative unit level 2"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/b35e8c8ed2d85ea47f163d53cafca733ecb29389",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea",
-          "sh:description": {
-            "en": "The name of a geographic area that groups Addresses."
-          },
-          "sh:name": {
-            "en": "address area"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#addressArea",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for address area"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/c0a2b78a80a731301e2f54d040ca9aa2c9b125b1",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postcode",
-          "sh:description": {
-            "en": "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."
-          },
-          "sh:name": {
-            "en": "post code"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#postCode",
-          "vl:message": {
-            "en": "The expected value for post code is a Literal"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#postName"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/d75b5d4c221e6b0bf47c853c0be92d078c39e391",
@@ -1549,10 +604,7 @@
           "sh:name": {
             "en": "locator name"
           },
-          "sh:path": "http://www.w3.org/ns/locn#locatorName",
-          "vl:message": {
-            "en": "The range of locator name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7",
@@ -1564,40 +616,7 @@
           "sh:name": {
             "en": "full address"
           },
-          "sh:path": "http://www.w3.org/ns/locn#fullAddress",
-          "vl:message": {
-            "en": "The range of full address must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f1144df3e852614939e86f2e427788162aa7cb72",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea",
-          "sh:description": {
-            "en": "The name of a geographic area that groups Addresses."
-          },
-          "sh:name": {
-            "en": "address area"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#addressArea",
-          "vl:message": {
-            "en": "The expected value for address area is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f8d38c3580ea5d4e47ea9e1ad447a47ebe91d5fa",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname",
-          "sh:description": {
-            "en": "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."
-          },
-          "sh:name": {
-            "en": "post name"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://www.w3.org/ns/locn#postName",
-          "vl:message": {
-            "en": "The expected value for post name is a Literal"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
         }
       ],
       "sh:targetClass": "http://www.w3.org/ns/locn#Address"
@@ -1617,25 +636,7 @@
           "sh:name": {
             "en": "name"
           },
-          "sh:path": "http://purl.org/dc/terms/title",
-          "vl:message": {
-            "en": "The range of name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/2c7d994dd540f92c116cac913e2aa5d588945f1f",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.address",
-          "sh:description": {
-            "en": "Associates any Resource with the corresponding Address."
-          },
-          "sh:name": {
-            "en": "address"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://www.w3.org/ns/locn#address",
-          "vl:message": {
-            "en": "The expected value for address is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://purl.org/dc/terms/title"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/322371a77364a50f049d46180f6192532eea26dc",
@@ -1647,10 +648,7 @@
           "sh:name": {
             "en": "type"
           },
-          "sh:path": "http://purl.org/dc/terms/type",
-          "vl:message": {
-            "en": "The range of type must be of type <http://www.w3.org/2004/02/skos/core#Concept>."
-          }
+          "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/3ebdf1520cc4c255e68fed56bc8fa1d659e63f2b",
@@ -1662,25 +660,7 @@
           "sh:name": {
             "en": "participates"
           },
-          "sh:path": "http://data.europa.eu/m8g/participates",
-          "vl:message": {
-            "en": "The range of participates must be of type <http://data.europa.eu/m8g/Participation>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/4f381639bb6e021939f65b4f41409d1edaeade9b",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.type",
-          "sh:description": {
-            "en": "A classification assigned to an Agent."
-          },
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://purl.org/dc/terms/type",
-          "vl:message": {
-            "en": "The expected value for type is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://data.europa.eu/m8g/participates"
         },
         {
           "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/5de4ef5193a558e17a34633888421d09b957d267",
@@ -1692,55 +672,7 @@
           "sh:name": {
             "en": "address"
           },
-          "sh:path": "http://www.w3.org/ns/locn#address",
-          "vl:message": {
-            "en": "The range of address must be of type <http://www.w3.org/ns/locn#Address>."
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/9caf9e629daa0e64ece77788576468821d7cff8c",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name",
-          "sh:description": {
-            "en": "The noun given to the Agent."
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:nodeKind": "sh:Literal",
-          "sh:path": "http://purl.org/dc/terms/title",
-          "vl:message": {
-            "en": "The expected value for name is a Literal"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/be01df43f1c288b656b3ca3879eb3dd9d8c700b9",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name",
-          "sh:description": {
-            "en": "The noun given to the Agent."
-          },
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://purl.org/dc/terms/title",
-          "sh:uniqueLang": "true",
-          "vl:message": {
-            "en": "Only 1 value for each language is allowed for name"
-          }
-        },
-        {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/fa36d3daf49d3081345d97a78915e5f823c4ec0f",
-          "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.participates",
-          "sh:description": {
-            "en": "The participation in which an Agent is involved."
-          },
-          "sh:name": {
-            "en": "participates"
-          },
-          "sh:nodeKind": "sh:BlankNodeOrIRI",
-          "sh:path": "http://data.europa.eu/m8g/participates",
-          "vl:message": {
-            "en": "The expected value for participates is a rdfs:Resource (URI or blank node)"
-          }
+          "sh:path": "http://www.w3.org/ns/locn#address"
         }
       ],
       "sh:targetClass": "http://xmlns.com/foaf/0.1/Agent"

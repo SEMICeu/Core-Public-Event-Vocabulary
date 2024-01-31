@@ -9,11 +9,11 @@
 
 <http://data.europa.eu/m8g/accessibility> a owl:DatatypeProperty;
   rdfs:label "accessibility"@en;
-  <http://purl.org/vocab/vann/usageNote> "This property may be provided in multiple languages with multiple instances of the accessibility property."@en;
   rdfs:comment "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."@en;
   rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
   rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdf:langString .
+  rdfs:range rdf:langString;
+  skos:scopeNote "This property may be provided in multiple languages with multiple instances of the accessibility property."@en .
 
 <http://data.europa.eu/m8g/audience> a owl:ObjectProperty;
   rdfs:label "audience"@en;
@@ -38,19 +38,19 @@
 
 <http://data.europa.eu/m8g/eventNumber> a owl:DatatypeProperty;
   rdfs:label "event number"@en;
-  <http://purl.org/vocab/vann/usageNote> "Examples could be the ''4th\" or \"2022\"."@en;
   rdfs:comment "The sequence position of the Public Event."@en;
   rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
   rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range rdf:langString .
+  rdfs:range rdf:langString;
+  skos:scopeNote "Examples could be the ''4th\" or \"2022\"."@en .
 
 <http://data.europa.eu/m8g/eventStatus> a owl:ObjectProperty;
   rdfs:label "event status"@en;
-  <http://purl.org/vocab/vann/usageNote> "The recomended code list is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/event-status\">  Event Status Controlled vocabulary </a> maintained by the Publications Office of the EU."@en;
   rdfs:comment " This property defines the overall status of the event."@en;
   rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
   rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:range skos:Concept;
+  skos:scopeNote "The recomended code list is the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/event-status\">  Event Status Controlled vocabulary </a> maintained by the Publications Office of the EU."@en .
 
 <http://data.europa.eu/m8g/expectedNumberOfParticipants> a owl:DatatypeProperty;
   rdfs:label "expected number of participants"@en;
@@ -61,19 +61,19 @@
 
 <http://data.europa.eu/m8g/format> a owl:ObjectProperty;
   rdfs:label "format"@en;
-  <http://purl.org/vocab/vann/usageNote> "Examples include conference call, physical meeting or hybrid."@en;
   rdfs:comment "A plan of organisation or arrangement of the Public Event."@en;
   rdfs:domain <http://data.europa.eu/m8g/PublicEvent>;
   rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:range skos:Concept;
+  skos:scopeNote "Examples include conference call, physical meeting or hybrid."@en .
 
 <http://data.europa.eu/m8g/frequency> a owl:ObjectProperty;
   rdfs:label "frequency"@en;
-  <http://purl.org/vocab/vann/usageNote> "It is recommended to use the frequency from an existing vocabulary like the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/frequency\">Frequency</a> from the Publications Office."@en;
   rdfs:comment "The recurrence of an instant or period."@en;
   rdfs:domain <http://www.w3.org/2006/time#TemporalEntity>;
   rdfs:isDefinedBy <http://data.europa.eu/m8g>;
-  rdfs:range skos:Concept .
+  rdfs:range skos:Concept;
+  skos:scopeNote "It is recommended to use the frequency from an existing vocabulary like the <a href=\"https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/frequency\">Frequency</a> from the Publications Office."@en .
 
 <http://data.europa.eu/m8g/registrationPage> a owl:ObjectProperty;
   rdfs:label "registration page"@en;
@@ -103,9 +103,9 @@
 
 <http://data.europa.eu/m8g/ContactPoint> a owl:Class;
   rdfs:label "Contact Point"@en;
-  <http://purl.org/vocab/vann/usageNote> "The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's <a href=\"http://schema.org/ContactPoint\"> ContactPoint </a> class  that has additional properties that some implementations may find useful."@en;
   rdfs:comment "Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with."@en;
-  rdfs:isDefinedBy <http://data.europa.eu/m8g> .
+  rdfs:isDefinedBy <http://data.europa.eu/m8g>;
+  skos:scopeNote "The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's <a href=\"http://schema.org/ContactPoint\"> ContactPoint </a> class  that has additional properties that some implementations may find useful."@en .
 
 <http://data.europa.eu/m8g/PublicEvent> a owl:Class;
   rdfs:label "Public Event"@en;

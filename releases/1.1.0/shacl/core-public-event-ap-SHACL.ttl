@@ -21,283 +21,88 @@
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/006de06965023999963c4307153479c8629991d9>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/03690748629ed1c685fc6a365780375be09bce76>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/256ffe464f9c7682e950f7853ef0b6060580435b>,
+  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/362b7c3261b1d5eb024e72e4868babc25ed0c7ce>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/3a0fcecd9e5f4e8deb4d102b9d072a4b067b773e>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/470060a15e97aeacd56fcc5beb701e647a6aa56e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/6f98d6d917a0e0b73d8614923f953e1ee2533918>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/854a17171901a9c000eff34a7ccd77814891e3d5>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/8b4c4bdd61e921f78483a3141338773693d4b2ef>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9097b947404def8604330ec2fc5a0bd405128b35>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/98016263ed1fd03fc2066e397f3ae3343ce3bf79>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9aaaf1750887d905949d78ac718f18c02809a28e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c278b09ca17b0ef710224829c0354dc4c2f9a40>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c2d6af39a55e5e6a76f6b852bbcbada029c21af>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/a9a46434014b93624ab68c9a56a5bc66a38da9a4>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/aa9622c05f497ef1b06496716742dd5cbfc6f0c9>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ac2d62a08fd924f88a79f0e70cda9fca4d484fd2>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ae24e9fc95115753cabe5ad6bd3c05b9751cd13c>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/b35e8c8ed2d85ea47f163d53cafca733ecb29389>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/c0a2b78a80a731301e2f54d040ca9aa2c9b125b1>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/d75b5d4c221e6b0bf47c853c0be92d078c39e391>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f1144df3e852614939e86f2e427788162aa7cb72>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f8d38c3580ea5d4e47ea9e1ad447a47ebe91d5fa>;
+    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7>;
   shacl:targetClass <http://www.w3.org/ns/locn#Address> .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/006de06965023999963c4307153479c8629991d9> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname";
-  shacl:description "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."@en;
-  shacl:name "locator name"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#locatorName>;
-  <https://purl.eu/ns/shacl#message> "The expected value for locator name is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/03690748629ed1c685fc6a365780375be09bce76> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1";
-  shacl:description "The name of the uppermost level of the address, almost always a country."@en;
-  shacl:name "administrative unit level 1"@en;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL1>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for administrative unit level 1"@en .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare";
   shacl:datatype rdf:langString;
   shacl:description "The name of a passage or way through from one location to another."@en;
   shacl:name "thoroughfare"@en;
-  shacl:path <http://www.w3.org/ns/locn#thoroughfare>;
-  <https://purl.eu/ns/shacl#message> "The range of thoroughfare must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/256ffe464f9c7682e950f7853ef0b6060580435b> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2";
-  shacl:description "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
-  shacl:name "administrative unit level 2"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL2>;
-  <https://purl.eu/ns/shacl#message> "The expected value for administrative unit level 2 is a Literal"@en .
+  shacl:path <http://www.w3.org/ns/locn#thoroughfare> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/362b7c3261b1d5eb024e72e4868babc25ed0c7ce> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1";
   shacl:datatype rdf:langString;
   shacl:description "The name of the uppermost level of the address, almost always a country."@en;
   shacl:name "administrative unit level 1"@en;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL1>;
-  <https://purl.eu/ns/shacl#message> "The range of administrative unit level 1 must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/3a0fcecd9e5f4e8deb4d102b9d072a4b067b773e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress";
-  shacl:description "The complete address written as a string."@en;
-  shacl:name "full address"@en;
-  shacl:path <http://www.w3.org/ns/locn#fullAddress>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for full address"@en .
+  shacl:path <http://www.w3.org/ns/locn#adminUnitL1> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/470060a15e97aeacd56fcc5beb701e647a6aa56e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea";
   shacl:datatype rdf:langString;
   shacl:description "The name of a geographic area that groups Addresses."@en;
   shacl:name "address area"@en;
-  shacl:path <http://www.w3.org/ns/locn#addressArea>;
-  <https://purl.eu/ns/shacl#message> "The range of address area must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/6f98d6d917a0e0b73d8614923f953e1ee2533918> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname";
-  shacl:description "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."@en;
-  shacl:name "locator name"@en;
-  shacl:path <http://www.w3.org/ns/locn#locatorName>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for locator name"@en .
+  shacl:path <http://www.w3.org/ns/locn#addressArea> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/854a17171901a9c000eff34a7ccd77814891e3d5> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2";
   shacl:datatype rdf:langString;
   shacl:description "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
   shacl:name "administrative unit level 2"@en;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL2>;
-  <https://purl.eu/ns/shacl#message> "The range of administrative unit level 2 must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/8b4c4bdd61e921f78483a3141338773693d4b2ef> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressID";
-  shacl:description "A globally unique identifier for each instance of an Address."@en;
-  shacl:name "address ID"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#addressId>;
-  <https://purl.eu/ns/shacl#message> "The expected value for address ID is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9097b947404def8604330ec2fc5a0bd405128b35> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatordesignator";
-  shacl:description "A number or sequence of characters that uniquely identifies the locator within the relevant scope."@en;
-  shacl:name "locator designator"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#locatorDesignator>;
-  <https://purl.eu/ns/shacl#message> "The expected value for locator designator is a Literal"@en .
+  shacl:path <http://www.w3.org/ns/locn#adminUnitL2> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/98016263ed1fd03fc2066e397f3ae3343ce3bf79> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname";
   shacl:datatype rdf:langString;
   shacl:description "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
   shacl:name "post name"@en;
-  shacl:path <http://www.w3.org/ns/locn#postName>;
-  <https://purl.eu/ns/shacl#message> "The range of post name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9aaaf1750887d905949d78ac718f18c02809a28e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1";
-  shacl:description "The name of the uppermost level of the address, almost always a country."@en;
-  shacl:name "administrative unit level 1"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL1>;
-  <https://purl.eu/ns/shacl#message> "The expected value for administrative unit level 1 is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c278b09ca17b0ef710224829c0354dc4c2f9a40> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postofficebox";
-  shacl:description "A location designator for a postal delivery point at a post office, usually a number."@en;
-  shacl:name "post office box"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#poBox>;
-  <https://purl.eu/ns/shacl#message> "The expected value for post office box is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/9c2d6af39a55e5e6a76f6b852bbcbada029c21af> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress";
-  shacl:description "The complete address written as a string."@en;
-  shacl:name "full address"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#fullAddress>;
-  <https://purl.eu/ns/shacl#message> "The expected value for full address is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/a9a46434014b93624ab68c9a56a5bc66a38da9a4> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname";
-  shacl:description "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
-  shacl:name "post name"@en;
-  shacl:path <http://www.w3.org/ns/locn#postName>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for post name"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/aa9622c05f497ef1b06496716742dd5cbfc6f0c9> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare";
-  shacl:description "The name of a passage or way through from one location to another."@en;
-  shacl:name "thoroughfare"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#thoroughfare>;
-  <https://purl.eu/ns/shacl#message> "The expected value for thoroughfare is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ac2d62a08fd924f88a79f0e70cda9fca4d484fd2> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare";
-  shacl:description "The name of a passage or way through from one location to another."@en;
-  shacl:name "thoroughfare"@en;
-  shacl:path <http://www.w3.org/ns/locn#thoroughfare>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for thoroughfare"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/ae24e9fc95115753cabe5ad6bd3c05b9751cd13c> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2";
-  shacl:description "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."@en;
-  shacl:name "administrative unit level 2"@en;
-  shacl:path <http://www.w3.org/ns/locn#adminUnitL2>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for administrative unit level 2"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/b35e8c8ed2d85ea47f163d53cafca733ecb29389> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea";
-  shacl:description "The name of a geographic area that groups Addresses."@en;
-  shacl:name "address area"@en;
-  shacl:path <http://www.w3.org/ns/locn#addressArea>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for address area"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/c0a2b78a80a731301e2f54d040ca9aa2c9b125b1> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postcode";
-  shacl:description "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
-  shacl:name "post code"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#postCode>;
-  <https://purl.eu/ns/shacl#message> "The expected value for post code is a Literal"@en .
+  shacl:path <http://www.w3.org/ns/locn#postName> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/d75b5d4c221e6b0bf47c853c0be92d078c39e391> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname";
   shacl:datatype rdf:langString;
   shacl:description "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."@en;
   shacl:name "locator name"@en;
-  shacl:path <http://www.w3.org/ns/locn#locatorName>;
-  <https://purl.eu/ns/shacl#message> "The range of locator name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
+  shacl:path <http://www.w3.org/ns/locn#locatorName> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress";
   shacl:datatype rdf:langString;
   shacl:description "The complete address written as a string."@en;
   shacl:name "full address"@en;
-  shacl:path <http://www.w3.org/ns/locn#fullAddress>;
-  <https://purl.eu/ns/shacl#message> "The range of full address must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f1144df3e852614939e86f2e427788162aa7cb72> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea";
-  shacl:description "The name of a geographic area that groups Addresses."@en;
-  shacl:name "address area"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#addressArea>;
-  <https://purl.eu/ns/shacl#message> "The expected value for address area is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/f8d38c3580ea5d4e47ea9e1ad447a47ebe91d5fa> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname";
-  shacl:description "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."@en;
-  shacl:name "post name"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://www.w3.org/ns/locn#postName>;
-  <https://purl.eu/ns/shacl#message> "The expected value for post name is a Literal"@en .
+  shacl:path <http://www.w3.org/ns/locn#fullAddress> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/2c7d994dd540f92c116cac913e2aa5d588945f1f>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/322371a77364a50f049d46180f6192532eea26dc>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/3ebdf1520cc4c255e68fed56bc8fa1d659e63f2b>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/4f381639bb6e021939f65b4f41409d1edaeade9b>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/5de4ef5193a558e17a34633888421d09b957d267>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/9caf9e629daa0e64ece77788576468821d7cff8c>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/be01df43f1c288b656b3ca3879eb3dd9d8c700b9>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/fa36d3daf49d3081345d97a78915e5f823c4ec0f>;
+    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/5de4ef5193a558e17a34633888421d09b957d267>;
   shacl:targetClass foaf:Agent .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name";
   shacl:datatype rdf:langString;
   shacl:description "The noun given to the Agent."@en;
   shacl:name "name"@en;
-  shacl:path dc:title;
-  <https://purl.eu/ns/shacl#message> "The range of name must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/2c7d994dd540f92c116cac913e2aa5d588945f1f> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.address";
-  shacl:description "Associates any Resource with the corresponding Address."@en;
-  shacl:name "address"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://www.w3.org/ns/locn#address>;
-  <https://purl.eu/ns/shacl#message> "The expected value for address is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path dc:title .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/322371a77364a50f049d46180f6192532eea26dc> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.type";
   shacl:class skos:Concept;
   shacl:description "A classification assigned to an Agent."@en;
   shacl:name "type"@en;
-  shacl:path dc:type;
-  <https://purl.eu/ns/shacl#message> "The range of type must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
+  shacl:path dc:type .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/3ebdf1520cc4c255e68fed56bc8fa1d659e63f2b> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.participates";
   shacl:class <http://data.europa.eu/m8g/Participation>;
   shacl:description "The participation in which an Agent is involved."@en;
   shacl:name "participates"@en;
-  shacl:path <http://data.europa.eu/m8g/participates>;
-  <https://purl.eu/ns/shacl#message> "The range of participates must be of type <http://data.europa.eu/m8g/Participation>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/4f381639bb6e021939f65b4f41409d1edaeade9b> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.type";
-  shacl:description "A classification assigned to an Agent."@en;
-  shacl:name "type"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path dc:type;
-  <https://purl.eu/ns/shacl#message> "The expected value for type is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/participates> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/5de4ef5193a558e17a34633888421d09b957d267> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.address";
   shacl:class <http://www.w3.org/ns/locn#Address>;
   shacl:description "Associates any Resource with the corresponding Address."@en;
   shacl:name "address"@en;
-  shacl:path <http://www.w3.org/ns/locn#address>;
-  <https://purl.eu/ns/shacl#message> "The range of address must be of type <http://www.w3.org/ns/locn#Address>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/9caf9e629daa0e64ece77788576468821d7cff8c> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name";
-  shacl:description "The noun given to the Agent."@en;
-  shacl:name "name"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:title;
-  <https://purl.eu/ns/shacl#message> "The expected value for name is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/be01df43f1c288b656b3ca3879eb3dd9d8c700b9> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name";
-  shacl:description "The noun given to the Agent."@en;
-  shacl:name "name"@en;
-  shacl:path dc:title;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for name"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/fa36d3daf49d3081345d97a78915e5f823c4ec0f> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.participates";
-  shacl:description "The participation in which an Agent is involved."@en;
-  shacl:name "participates"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/participates>;
-  <https://purl.eu/ns/shacl#message> "The expected value for participates is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://www.w3.org/ns/locn#address> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#CodeShape> a shacl:NodeShape;
   shacl:closed false;
@@ -305,71 +110,28 @@
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/0c404fa56c64463c15f65878d02efa16eec065b0>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/2c2e861c64607bcf2ba7176ce18df71cc690e57e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/8547f9fea103d51b54d608cf10f98b003fde7378>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/939028c42179e18627eac7954154b35dbc9c5a42>,
+  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/95cf5318d1604f72f1c5d4d22a360ce268437bf0>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/a736c4b01ea7557518c0c146f3e311947ce00ccc>;
+    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d>;
   shacl:targetClass <http://data.europa.eu/m8g/ContactPoint> .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/0c404fa56c64463c15f65878d02efa16eec065b0> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.hasemail";
-  shacl:description "An electronic address through which the Contact Point can be contacted."@en;
-  shacl:name "has email"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://data.europa.eu/m8g/email>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has email is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/2c2e861c64607bcf2ba7176ce18df71cc690e57e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.availabilityrestriction";
-  shacl:description "The time during which the Contact Point is not available."@en;
-  shacl:name "availability restriction"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/specialOpeningHoursSpecification>;
-  <https://purl.eu/ns/shacl#message> "The expected value for availability restriction is a rdfs:Resource (URI or blank node)"@en .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.openinghours";
   shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
   shacl:description "The time at which the Contact Point is normally available."@en;
   shacl:name "opening hours"@en;
-  shacl:path <http://data.europa.eu/m8g/openingHours>;
-  <https://purl.eu/ns/shacl#message> "The range of opening hours must be of type <http://www.w3.org/2006/time#TemporalEntity>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/8547f9fea103d51b54d608cf10f98b003fde7378> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.hastelephone";
-  shacl:description "A telephone number through which the Contact Point can be contacted."@en;
-  shacl:name "has telephone"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://data.europa.eu/m8g/telephone>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has telephone is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/939028c42179e18627eac7954154b35dbc9c5a42> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.openinghours";
-  shacl:description "The time at which the Contact Point is normally available."@en;
-  shacl:name "opening hours"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/openingHours>;
-  <https://purl.eu/ns/shacl#message> "The expected value for opening hours is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/openingHours> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/95cf5318d1604f72f1c5d4d22a360ce268437bf0> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.contactpage";
   shacl:class foaf:Document;
   shacl:description "A web page that could be used to reach out the Contact Point."@en;
   shacl:name "contact page"@en;
-  shacl:path <http://data.europa.eu/m8g/contactPage>;
-  <https://purl.eu/ns/shacl#message> "The range of contact page must be of type <http://xmlns.com/foaf/0.1/Document>."@en .
+  shacl:path <http://data.europa.eu/m8g/contactPage> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.availabilityrestriction";
   shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
   shacl:description "The time during which the Contact Point is not available."@en;
   shacl:name "availability restriction"@en;
-  shacl:path <http://data.europa.eu/m8g/specialOpeningHoursSpecification>;
-  <https://purl.eu/ns/shacl#message> "The range of availability restriction must be of type <http://www.w3.org/2006/time#TemporalEntity>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/a736c4b01ea7557518c0c146f3e311947ce00ccc> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.contactpage";
-  shacl:description "A web page that could be used to reach out the Contact Point."@en;
-  shacl:name "contact page"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/contactPage>;
-  <https://purl.eu/ns/shacl#message> "The expected value for contact page is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/specialOpeningHoursSpecification> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#DocumentShape> a shacl:NodeShape;
   shacl:closed false;
@@ -389,87 +151,35 @@
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/3051580b93f948a2fd295c9665c862326364c1f2>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/6cae9880e515253132af1452a38a8a5827165149>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/768bb4171e00505886fe9a1e949b4cd71f0eb548>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/91fca326def04ee4ef7ed1efba4e59fae00d1faa>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/aadbd67a77a624f073be2076627fb9dc883cbe48>,
+  shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/cada7eccaa037221e39ca22ee97ce689067db260>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d2254b8259635ec986bc7c65b0227299193c6c16>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d4d4f2399b8cf2f615ac658920373b714726bed0>;
   shacl:targetClass <http://data.europa.eu/m8g/Participation> .
 
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/3051580b93f948a2fd295c9665c862326364c1f2> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hasparticipant";
-  shacl:description "The Agent involved in the Participation."@en;
-  shacl:name "has participant"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/hasParticipant>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has participant is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description";
-  shacl:description "A textual explanation of the Participation."@en;
-  shacl:name "description"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The expected value for description is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/768bb4171e00505886fe9a1e949b4cd71f0eb548> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description";
-  shacl:description "A textual explanation of the Participation."@en;
-  shacl:name "description"@en;
-  shacl:path dc:description;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for description"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/91fca326def04ee4ef7ed1efba4e59fae00d1faa> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.role";
-  shacl:description "The function of an Agent within a Participation."@en;
-  shacl:name "role"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/role>;
-  <https://purl.eu/ns/shacl#message> "The expected value for role is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hastime";
-  shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
-  shacl:name "has time"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://www.w3.org/2006/time#hasTime>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has time is a rdfs:Resource (URI or blank node)"@en .
-
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hasparticipant";
   shacl:class foaf:Agent;
   shacl:description "The Agent involved in the Participation."@en;
   shacl:name "has participant"@en;
-  shacl:path <http://data.europa.eu/m8g/hasParticipant>;
-  <https://purl.eu/ns/shacl#message> "The range of has participant must be of type <http://xmlns.com/foaf/0.1/Agent>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/aadbd67a77a624f073be2076627fb9dc883cbe48> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.identifier";
-  shacl:description "The unambiguous structured reference for the Participation."@en;
-  shacl:name "identifier"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:identifier;
-  <https://purl.eu/ns/shacl#message> "The expected value for identifier is a Literal"@en .
+  shacl:path <http://data.europa.eu/m8g/hasParticipant> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/cada7eccaa037221e39ca22ee97ce689067db260> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hastime";
   shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
   shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
   shacl:name "has time"@en;
-  shacl:path <http://www.w3.org/2006/time#hasTime>;
-  <https://purl.eu/ns/shacl#message> "The range of has time must be of type <http://www.w3.org/2006/time#TemporalEntity>."@en .
+  shacl:path <http://www.w3.org/2006/time#hasTime> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d2254b8259635ec986bc7c65b0227299193c6c16> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.role";
   shacl:class skos:Concept;
   shacl:description "The function of an Agent within a Participation."@en;
   shacl:name "role"@en;
-  shacl:path <http://data.europa.eu/m8g/role>;
-  <https://purl.eu/ns/shacl#message> "The range of role must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
+  shacl:path <http://data.europa.eu/m8g/role> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description";
   shacl:datatype rdf:langString;
   shacl:description "A textual explanation of the Participation."@en;
   shacl:name "description"@en;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
+  shacl:path dc:description .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape> a shacl:NodeShape;
   shacl:closed false;
@@ -477,47 +187,21 @@
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/16285f673032fe44252d7b61d21e729d2b9b1223>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/20bc04426dbee3b451abd55c4acaef748eceea6b>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2c7d994dd540f92c116cac913e2aa5d588945f1f>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2cb200f381117ea8ae3d2b4a707a0911e34f1e42>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2f3b81f67ea7974ddeb1e8dad2843315af765178>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/339699b2aa9f50f959f3abe739c4460719ee0137>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/3bf2eb83d98691f70dec4cad53a6df0a567a38a2>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/46f7602f331752aea8befe40e824e92bbe80bff1>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/49e1aa64f95925adbd68426e0eb6ceea8157201a>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5dceacf42e9454591d860e4da0af1f645a64f089>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5de4ef5193a558e17a34633888421d09b957d267>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/61939252d652587b0311b448f67c71e42ce5a328>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/67f6021dd77f222dd1a17470fe84aa73194a096b>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/68afc3670a223762319f7c50b588dda99a66556e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/6cae9880e515253132af1452a38a8a5827165149>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/70d43b8fb57f95387e8e11632149c854bb6b1dd1>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/737cd5f1c9f0e13c35eb82b7f0d2b2f76a9a82c7>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/768bb4171e00505886fe9a1e949b4cd71f0eb548>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/787317eaad35993e463b5acf56b76915f2814352>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/7b6713c1f4a52e964f5db57eabef294b6d04e90e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/8d36a62f83db7f94097e27edb51306e17e0d40f3>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/922ee210f3ed1fe9e721ba4f7c1d63829f9fabae>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/92d65d33f2a5d5345f1980ffd0cf304e47dd0caf>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9adf9f5890592909cf3e67021ae7ab4f895a7745>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9c5181d03e1e48344598a8c12da20a1ca35c3ccd>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a0073c2660e40c6179064cf89098b3a86f12d11c>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/aadbd67a77a624f073be2076627fb9dc883cbe48>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/b286acdfe0b19f7dc16a064e5a7cbef868a32621>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/c1577bd231c71b0b1910272999755d3414867cfd>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/cada7eccaa037221e39ca22ee97ce689067db260>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d0b938b45807eff5bd0a6a6ba6766085347c42d4>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d31c90c0b38d8f79fa882c73a097db3e9ca00be4>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d4d4f2399b8cf2f615ac658920373b714726bed0>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d5d74574f70f9a979535f3624608f88180dd0c97>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/db878f1cb93930f64561d0504123c66feacfad5a>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8589eaee31141b030604250a72f3fd359c8618d>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8cf65c00b687cfb7b05e0091cb571b33559d8b8>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/ef2c104f9bc5019523318900356723ac0a8500e2>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f2ea23ea7d2e48da98de5a4a76dc3d86501b02b9>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f7de0a740d52fdaf8ea9366099bd148ca7d398bf>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f8e703ac623d1a44103d35b9a35a7ef0284366b9>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb0f4ce42568457dd68730013f20f7749a22ad39>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb8568b313de736f9184db23272b6317700e9e7e>;
   shacl:targetClass <http://data.europa.eu/m8g/PublicEvent> .
@@ -526,337 +210,131 @@
   shacl:datatype rdf:langString;
   shacl:description "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."@en;
   shacl:name "accessibility"@en;
-  shacl:path <http://data.europa.eu/m8g/accessibility>;
-  <https://purl.eu/ns/shacl#message> "The range of accessibility must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
+  shacl:path <http://data.europa.eu/m8g/accessibility> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/16285f673032fe44252d7b61d21e729d2b9b1223> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber";
   shacl:datatype rdf:langString;
   shacl:description "The sequence position of the Public Event."@en;
   shacl:name "event number"@en;
-  shacl:path <http://data.europa.eu/m8g/eventNumber>;
-  <https://purl.eu/ns/shacl#message> "The range of event number must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
+  shacl:path <http://data.europa.eu/m8g/eventNumber> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/20bc04426dbee3b451abd55c4acaef748eceea6b> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.subevent";
   shacl:class <http://data.europa.eu/m8g/PublicEvent>;
   shacl:description "A relation towards another Public Event that belong to it."@en;
   shacl:name "sub event"@en;
-  shacl:path <http://data.europa.eu/m8g/subEvent>;
-  <https://purl.eu/ns/shacl#message> "The range of sub event must be of type <http://data.europa.eu/m8g/PublicEvent>."@en .
+  shacl:path <http://data.europa.eu/m8g/subEvent> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.language";
   shacl:class dc:LinguisticSystem;
   shacl:description "The language in which the Public Event is given."@en;
   shacl:name "language"@en;
-  shacl:path dc:language;
-  <https://purl.eu/ns/shacl#message> "The range of language must be of type <http://purl.org/dc/terms/LinguisticSystem>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2c7d994dd540f92c116cac913e2aa5d588945f1f> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.address";
-  shacl:description "Associates any Resource with the corresponding Address."@en;
-  shacl:name "address"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://www.w3.org/ns/locn#address>;
-  <https://purl.eu/ns/shacl#message> "The expected value for address is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path dc:language .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2cb200f381117ea8ae3d2b4a707a0911e34f1e42> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.haspreviousevent";
   shacl:class <http://data.europa.eu/m8g/PublicEvent>;
   shacl:description "The Public Event that comes before this one."@en;
   shacl:name "has previous event"@en;
-  shacl:path <http://data.europa.eu/m8g/hasPreviousEvent>;
-  <https://purl.eu/ns/shacl#message> "The range of has previous event must be of type <http://data.europa.eu/m8g/PublicEvent>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2f3b81f67ea7974ddeb1e8dad2843315af765178> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber";
-  shacl:description "The sequence position of the Public Event."@en;
-  shacl:name "event number"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://data.europa.eu/m8g/eventNumber>;
-  <https://purl.eu/ns/shacl#message> "The expected value for event number is a Literal"@en .
+  shacl:path <http://data.europa.eu/m8g/hasPreviousEvent> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/339699b2aa9f50f959f3abe739c4460719ee0137> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.registrationpage";
   shacl:class foaf:Document;
   shacl:description "A web page that provides means to attend the Public Event."@en;
   shacl:name "registration page"@en;
-  shacl:path <http://data.europa.eu/m8g/registrationPage>;
-  <https://purl.eu/ns/shacl#message> "The range of registration page must be of type <http://xmlns.com/foaf/0.1/Document>."@en .
+  shacl:path <http://data.europa.eu/m8g/registrationPage> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/3bf2eb83d98691f70dec4cad53a6df0a567a38a2> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasnextevent";
   shacl:class <http://data.europa.eu/m8g/PublicEvent>;
   shacl:description "The Public Event that comes after this one."@en;
   shacl:name "has next event"@en;
-  shacl:path <http://data.europa.eu/m8g/hasNextEvent>;
-  <https://purl.eu/ns/shacl#message> "The range of has next event must be of type <http://data.europa.eu/m8g/PublicEvent>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/46f7602f331752aea8befe40e824e92bbe80bff1> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.haspreviousevent";
-  shacl:description "The Public Event that comes before this one."@en;
-  shacl:name "has previous event"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/hasPreviousEvent>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has previous event is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/hasNextEvent> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title";
   shacl:datatype rdf:langString;
   shacl:description "The name given to the Public Event."@en;
   shacl:name "title"@en;
-  shacl:path dc:title;
-  <https://purl.eu/ns/shacl#message> "The range of title must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/49e1aa64f95925adbd68426e0eb6ceea8157201a> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.accessibility";
-  shacl:description "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."@en;
-  shacl:name "accessibility"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://data.europa.eu/m8g/accessibility>;
-  <https://purl.eu/ns/shacl#message> "The expected value for accessibility is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5dceacf42e9454591d860e4da0af1f645a64f089> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.topic";
-  shacl:description "The subject of the Public Event."@en;
-  shacl:name "topic"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path dc:subject;
-  <https://purl.eu/ns/shacl#message> "The expected value for topic is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path dc:title .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5de4ef5193a558e17a34633888421d09b957d267> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.address";
   shacl:class <http://www.w3.org/ns/locn#Address>;
   shacl:description "Associates any Resource with the corresponding Address."@en;
   shacl:name "address"@en;
-  shacl:path <http://www.w3.org/ns/locn#address>;
-  <https://purl.eu/ns/shacl#message> "The range of address must be of type <http://www.w3.org/ns/locn#Address>."@en .
+  shacl:path <http://www.w3.org/ns/locn#address> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/61939252d652587b0311b448f67c71e42ce5a328> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventtype";
   shacl:class skos:Concept;
   shacl:description "The nature or genre of the Public Event. "@en;
   shacl:name "event type"@en;
-  shacl:path dc:type;
-  <https://purl.eu/ns/shacl#message> "The range of event type must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/67f6021dd77f222dd1a17470fe84aa73194a096b> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventstatus";
-  shacl:description " This property defines the overall status of the event."@en;
-  shacl:name "event status"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/eventStatus>;
-  <https://purl.eu/ns/shacl#message> "The expected value for event status is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/68afc3670a223762319f7c50b588dda99a66556e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasnextevent";
-  shacl:description "The Public Event that comes after this one."@en;
-  shacl:name "has next event"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/hasNextEvent>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has next event is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description";
-  shacl:description "A textual explanation of the Pulblic Event."@en;
-  shacl:name "description"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The expected value for description is a Literal"@en .
+  shacl:path dc:type .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/70d43b8fb57f95387e8e11632149c854bb6b1dd1> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.parentevent";
   shacl:class <http://data.europa.eu/m8g/PublicEvent>;
   shacl:description "A relation to another Public Event that encompasses it."@en;
   shacl:name "parent event"@en;
-  shacl:path <http://data.europa.eu/m8g/parentEvent>;
-  <https://purl.eu/ns/shacl#message> "The range of parent event must be of type <http://data.europa.eu/m8g/PublicEvent>."@en .
+  shacl:path <http://data.europa.eu/m8g/parentEvent> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/737cd5f1c9f0e13c35eb82b7f0d2b2f76a9a82c7> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.format";
   shacl:class skos:Concept;
   shacl:description "A plan of organisation or arrangement of the Public Event."@en;
   shacl:name "format"@en;
-  shacl:path <http://data.europa.eu/m8g/format>;
-  <https://purl.eu/ns/shacl#message> "The range of format must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/768bb4171e00505886fe9a1e949b4cd71f0eb548> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description";
-  shacl:description "A textual explanation of the Pulblic Event."@en;
-  shacl:name "description"@en;
-  shacl:path dc:description;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for description"@en .
+  shacl:path <http://data.europa.eu/m8g/format> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/787317eaad35993e463b5acf56b76915f2814352> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.expectednumberofparticipants";
   shacl:datatype xsd:integer;
   shacl:description "The number of participants expected to participate in the event."@en;
   shacl:name "expected number of participants"@en;
-  shacl:path <http://data.europa.eu/m8g/expectedNumberOfParticipants>;
-  <https://purl.eu/ns/shacl#message> "The range of expected number of participants must be of type <http://www.w3.org/2001/XMLSchema#integer>."@en .
+  shacl:path <http://data.europa.eu/m8g/expectedNumberOfParticipants> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/7b6713c1f4a52e964f5db57eabef294b6d04e90e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.contactpoint";
   shacl:class <http://data.europa.eu/m8g/ContactPoint>;
   shacl:description "The main contact information of the resource."@en;
   shacl:name "contact point"@en;
-  shacl:path <http://data.europa.eu/m8g/contactPoint>;
-  <https://purl.eu/ns/shacl#message> "The range of contact point must be of type <http://data.europa.eu/m8g/ContactPoint>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/8d36a62f83db7f94097e27edb51306e17e0d40f3> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.homepage";
-  shacl:description "The website of the Public Event."@en;
-  shacl:name "homepage"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path foaf:homepage;
-  <https://purl.eu/ns/shacl#message> "The expected value for homepage is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/922ee210f3ed1fe9e721ba4f7c1d63829f9fabae> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.subevent";
-  shacl:description "A relation towards another Public Event that belong to it."@en;
-  shacl:name "sub event"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/subEvent>;
-  <https://purl.eu/ns/shacl#message> "The expected value for sub event is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/92d65d33f2a5d5345f1980ffd0cf304e47dd0caf> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title";
-  shacl:description "The name given to the Public Event."@en;
-  shacl:name "title"@en;
-  shacl:path dc:title;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for title"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9adf9f5890592909cf3e67021ae7ab4f895a7745> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.contactpoint";
-  shacl:description "The main contact information of the resource."@en;
-  shacl:name "contact point"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/contactPoint>;
-  <https://purl.eu/ns/shacl#message> "The expected value for contact point is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/contactPoint> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9c5181d03e1e48344598a8c12da20a1ca35c3ccd> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventstatus";
   shacl:class skos:Concept;
   shacl:description " This property defines the overall status of the event."@en;
   shacl:name "event status"@en;
-  shacl:path <http://data.europa.eu/m8g/eventStatus>;
-  <https://purl.eu/ns/shacl#message> "The range of event status must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a0073c2660e40c6179064cf89098b3a86f12d11c> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.parentevent";
-  shacl:description "A relation to another Public Event that encompasses it."@en;
-  shacl:name "parent event"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/parentEvent>;
-  <https://purl.eu/ns/shacl#message> "The expected value for parent event is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/a5e6889301acb723b63ad5007ee4065cefe3ad0e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hastime";
-  shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
-  shacl:name "has time"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://www.w3.org/2006/time#hasTime>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has time is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/aadbd67a77a624f073be2076627fb9dc883cbe48> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.identifier";
-  shacl:description "The unambiguous structured reference for the Public Event."@en;
-  shacl:name "identifier"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:identifier;
-  <https://purl.eu/ns/shacl#message> "The expected value for identifier is a Literal"@en .
+  shacl:path <http://data.europa.eu/m8g/eventStatus> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/b286acdfe0b19f7dc16a064e5a7cbef868a32621> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.topic";
   shacl:class skos:Concept;
   shacl:description "The subject of the Public Event."@en;
   shacl:name "topic"@en;
-  shacl:path dc:subject;
-  <https://purl.eu/ns/shacl#message> "The range of topic must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/c1577bd231c71b0b1910272999755d3414867cfd> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.format";
-  shacl:description "A plan of organisation or arrangement of the Public Event."@en;
-  shacl:name "format"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/format>;
-  <https://purl.eu/ns/shacl#message> "The expected value for format is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path dc:subject .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/cada7eccaa037221e39ca22ee97ce689067db260> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hastime";
   shacl:class <http://www.w3.org/2006/time#TemporalEntity>;
   shacl:description "The association of a temporal entity (instant or interval) to any thing."@en;
   shacl:name "has time"@en;
-  shacl:path <http://www.w3.org/2006/time#hasTime>;
-  <https://purl.eu/ns/shacl#message> "The range of has time must be of type <http://www.w3.org/2006/time#TemporalEntity>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d0b938b45807eff5bd0a6a6ba6766085347c42d4> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber";
-  shacl:description "The sequence position of the Public Event."@en;
-  shacl:name "event number"@en;
-  shacl:path <http://data.europa.eu/m8g/eventNumber>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for event number"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d31c90c0b38d8f79fa882c73a097db3e9ca00be4> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.audience";
-  shacl:description "The target group of people for whom the Public Event is created."@en;
-  shacl:name "audience"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/audience>;
-  <https://purl.eu/ns/shacl#message> "The expected value for audience is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://www.w3.org/2006/time#hasTime> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description";
   shacl:datatype rdf:langString;
   shacl:description "A textual explanation of the Pulblic Event."@en;
   shacl:name "description"@en;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d5d74574f70f9a979535f3624608f88180dd0c97> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title";
-  shacl:description "The name given to the Public Event."@en;
-  shacl:name "title"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:title;
-  <https://purl.eu/ns/shacl#message> "The expected value for title is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/db878f1cb93930f64561d0504123c66feacfad5a> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.language";
-  shacl:description "The language in which the Public Event is given."@en;
-  shacl:name "language"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path dc:language;
-  <https://purl.eu/ns/shacl#message> "The expected value for language is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8589eaee31141b030604250a72f3fd359c8618d> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.accessibility";
-  shacl:description "Information about how the Public Event can be approached, reached or entered, in particular for people with special needs."@en;
-  shacl:name "accessibility"@en;
-  shacl:path <http://data.europa.eu/m8g/accessibility>;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for accessibility"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/e8cf65c00b687cfb7b05e0091cb571b33559d8b8> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.expectednumberofparticipants";
-  shacl:description "The number of participants expected to participate in the event."@en;
-  shacl:name "expected number of participants"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path <http://data.europa.eu/m8g/expectedNumberOfParticipants>;
-  <https://purl.eu/ns/shacl#message> "The expected value for expected number of participants is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/ef2c104f9bc5019523318900356723ac0a8500e2> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasparticipation";
-  shacl:description "The way how a resource is organized."@en;
-  shacl:name "has participation"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/hasParticipation>;
-  <https://purl.eu/ns/shacl#message> "The expected value for has participation is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path dc:description .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f2ea23ea7d2e48da98de5a4a76dc3d86501b02b9> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.audience";
   shacl:class skos:Concept;
   shacl:description "The target group of people for whom the Public Event is created."@en;
   shacl:name "audience"@en;
-  shacl:path <http://data.europa.eu/m8g/audience>;
-  <https://purl.eu/ns/shacl#message> "The range of audience must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f7de0a740d52fdaf8ea9366099bd148ca7d398bf> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.registrationpage";
-  shacl:description "A web page that provides means to attend the Public Event."@en;
-  shacl:name "registration page"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/registrationPage>;
-  <https://purl.eu/ns/shacl#message> "The expected value for registration page is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f8e703ac623d1a44103d35b9a35a7ef0284366b9> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventtype";
-  shacl:description "The nature or genre of the Public Event. "@en;
-  shacl:name "event type"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path dc:type;
-  <https://purl.eu/ns/shacl#message> "The expected value for event type is a rdfs:Resource (URI or blank node)"@en .
+  shacl:path <http://data.europa.eu/m8g/audience> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb0f4ce42568457dd68730013f20f7749a22ad39> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasparticipation";
   shacl:class <http://data.europa.eu/m8g/Participation>;
   shacl:description "The way how a resource is organized."@en;
   shacl:name "has participation"@en;
-  shacl:path <http://data.europa.eu/m8g/hasParticipation>;
-  <https://purl.eu/ns/shacl#message> "The range of has participation must be of type <http://data.europa.eu/m8g/Participation>."@en .
+  shacl:path <http://data.europa.eu/m8g/hasParticipation> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb8568b313de736f9184db23272b6317700e9e7e> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.homepage";
   shacl:class foaf:Document;
   shacl:description "The website of the Public Event."@en;
   shacl:name "homepage"@en;
-  shacl:path foaf:homepage;
-  <https://purl.eu/ns/shacl#message> "The range of homepage must be of type <http://xmlns.com/foaf/0.1/Document>."@en .
+  shacl:path foaf:homepage .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/04d197dc40f01e87093bdd0446a9fdb1a9d44319>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/63a8cf23801ef605734507c621693524f22476dd>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/6cae9880e515253132af1452a38a8a5827165149>,
-    <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/768bb4171e00505886fe9a1e949b4cd71f0eb548>,
     <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/d4d4f2399b8cf2f615ac658920373b714726bed0>;
   shacl:targetClass <http://www.w3.org/2006/time#TemporalEntity> .
 
@@ -864,36 +342,13 @@
   shacl:class skos:Concept;
   shacl:description "The recurrence of an instant or period."@en;
   shacl:name "frequency"@en;
-  shacl:path <http://data.europa.eu/m8g/frequency>;
-  <https://purl.eu/ns/shacl#message> "The range of frequency must be of type <http://www.w3.org/2004/02/skos/core#Concept>."@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/63a8cf23801ef605734507c621693524f22476dd> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.frequency";
-  shacl:description "The recurrence of an instant or period."@en;
-  shacl:name "frequency"@en;
-  shacl:nodeKind shacl:BlankNodeOrIRI;
-  shacl:path <http://data.europa.eu/m8g/frequency>;
-  <https://purl.eu/ns/shacl#message> "The expected value for frequency is a rdfs:Resource (URI or blank node)"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/6cae9880e515253132af1452a38a8a5827165149> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description";
-  shacl:description "A  textual representation of the Temporal Entity."@en;
-  shacl:name "description"@en;
-  shacl:nodeKind shacl:Literal;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The expected value for description is a Literal"@en .
-
-<https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/768bb4171e00505886fe9a1e949b4cd71f0eb548> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description";
-  shacl:description "A  textual representation of the Temporal Entity."@en;
-  shacl:name "description"@en;
-  shacl:path dc:description;
-  shacl:uniqueLang true;
-  <https://purl.eu/ns/shacl#message> "Only 1 value for each language is allowed for description"@en .
+  shacl:path <http://data.europa.eu/m8g/frequency> .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/d4d4f2399b8cf2f615ac658920373b714726bed0> rdfs:seeAlso "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description";
   shacl:datatype rdf:langString;
   shacl:description "A  textual representation of the Temporal Entity."@en;
   shacl:name "description"@en;
-  shacl:path dc:description;
-  <https://purl.eu/ns/shacl#message> "The range of description must be of type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>."@en .
+  shacl:path dc:description .
 
 <https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TextShape> a shacl:NodeShape;
   shacl:closed false;
