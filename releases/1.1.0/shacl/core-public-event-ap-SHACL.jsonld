@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/",
+    "@vocab": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@id": "qb:codeList",
@@ -100,15 +100,15 @@
       "@id": "vl:message"
     }
   },
-  "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/",
+  "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl",
   "shapes": [
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ContactPointShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ContactPointShape/7816fa198c5151c7c5680b445b410afba0f362db",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.openinghours",
           "sh:class": "http://www.w3.org/2006/time#TemporalEntity",
           "sh:description": {
@@ -120,7 +120,7 @@
           "sh:path": "http://data.europa.eu/m8g/openingHours"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/95cf5318d1604f72f1c5d4d22a360ce268437bf0",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ContactPointShape/95cf5318d1604f72f1c5d4d22a360ce268437bf0",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.contactpage",
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
@@ -132,7 +132,7 @@
           "sh:path": "http://data.europa.eu/m8g/contactPage"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ContactPointShape/9825c8e65ddb580b23b763ebb38542de7d6ca58d",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ContactPoint.availabilityrestriction",
           "sh:class": "http://www.w3.org/2006/time#TemporalEntity",
           "sh:description": {
@@ -147,12 +147,12 @@
       "sh:targetClass": "http://data.europa.eu/m8g/ContactPoint"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ParticipationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ParticipationShape/a80662b8305434df5e0a4edc73b2bb9037308c42",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hasparticipant",
           "sh:class": "http://xmlns.com/foaf/0.1/Agent",
           "sh:description": {
@@ -164,7 +164,7 @@
           "sh:path": "http://data.europa.eu/m8g/hasParticipant"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/cada7eccaa037221e39ca22ee97ce689067db260",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ParticipationShape/cada7eccaa037221e39ca22ee97ce689067db260",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.hastime",
           "sh:class": "http://www.w3.org/2006/time#TemporalEntity",
           "sh:description": {
@@ -176,7 +176,7 @@
           "sh:path": "http://www.w3.org/2006/time#hasTime"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d2254b8259635ec986bc7c65b0227299193c6c16",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ParticipationShape/d2254b8259635ec986bc7c65b0227299193c6c16",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.role",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -188,7 +188,7 @@
           "sh:path": "http://data.europa.eu/m8g/role"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#ParticipationShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#ParticipationShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Participation.description",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -203,12 +203,12 @@
       "sh:targetClass": "http://data.europa.eu/m8g/Participation"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/0392f034da73998aa27744e049b617cc815300d1",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/0392f034da73998aa27744e049b617cc815300d1",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.accessibility",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -220,7 +220,7 @@
           "sh:path": "http://data.europa.eu/m8g/accessibility"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/16285f673032fe44252d7b61d21e729d2b9b1223",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/16285f673032fe44252d7b61d21e729d2b9b1223",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventnumber",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -232,7 +232,7 @@
           "sh:path": "http://data.europa.eu/m8g/eventNumber"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/20bc04426dbee3b451abd55c4acaef748eceea6b",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/20bc04426dbee3b451abd55c4acaef748eceea6b",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.subevent",
           "sh:class": "http://data.europa.eu/m8g/PublicEvent",
           "sh:description": {
@@ -244,7 +244,7 @@
           "sh:path": "http://data.europa.eu/m8g/subEvent"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/29ba27566ab1f32c8bb73f3492436d4bd868d3d2",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.language",
           "sh:class": "http://purl.org/dc/terms/LinguisticSystem",
           "sh:description": {
@@ -256,7 +256,7 @@
           "sh:path": "http://purl.org/dc/terms/language"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/2cb200f381117ea8ae3d2b4a707a0911e34f1e42",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/2cb200f381117ea8ae3d2b4a707a0911e34f1e42",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.haspreviousevent",
           "sh:class": "http://data.europa.eu/m8g/PublicEvent",
           "sh:description": {
@@ -268,7 +268,7 @@
           "sh:path": "http://data.europa.eu/m8g/hasPreviousEvent"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/339699b2aa9f50f959f3abe739c4460719ee0137",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/339699b2aa9f50f959f3abe739c4460719ee0137",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.registrationpage",
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
@@ -280,7 +280,7 @@
           "sh:path": "http://data.europa.eu/m8g/registrationPage"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/3bf2eb83d98691f70dec4cad53a6df0a567a38a2",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/3bf2eb83d98691f70dec4cad53a6df0a567a38a2",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasnextevent",
           "sh:class": "http://data.europa.eu/m8g/PublicEvent",
           "sh:description": {
@@ -292,7 +292,7 @@
           "sh:path": "http://data.europa.eu/m8g/hasNextEvent"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/488f0bcb1b2d7cb5288ca9952a7b94f106f95859",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.title",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -304,7 +304,7 @@
           "sh:path": "http://purl.org/dc/terms/title"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/5de4ef5193a558e17a34633888421d09b957d267",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/5de4ef5193a558e17a34633888421d09b957d267",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.address",
           "sh:class": "http://www.w3.org/ns/locn#Address",
           "sh:description": {
@@ -316,7 +316,7 @@
           "sh:path": "http://www.w3.org/ns/locn#address"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/61939252d652587b0311b448f67c71e42ce5a328",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/61939252d652587b0311b448f67c71e42ce5a328",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -328,7 +328,7 @@
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/70d43b8fb57f95387e8e11632149c854bb6b1dd1",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/70d43b8fb57f95387e8e11632149c854bb6b1dd1",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.parentevent",
           "sh:class": "http://data.europa.eu/m8g/PublicEvent",
           "sh:description": {
@@ -340,7 +340,7 @@
           "sh:path": "http://data.europa.eu/m8g/parentEvent"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/737cd5f1c9f0e13c35eb82b7f0d2b2f76a9a82c7",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/737cd5f1c9f0e13c35eb82b7f0d2b2f76a9a82c7",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.format",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -352,7 +352,7 @@
           "sh:path": "http://data.europa.eu/m8g/format"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/787317eaad35993e463b5acf56b76915f2814352",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/787317eaad35993e463b5acf56b76915f2814352",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.expectednumberofparticipants",
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "sh:description": {
@@ -364,7 +364,7 @@
           "sh:path": "http://data.europa.eu/m8g/expectedNumberOfParticipants"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/7b6713c1f4a52e964f5db57eabef294b6d04e90e",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/7b6713c1f4a52e964f5db57eabef294b6d04e90e",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.contactpoint",
           "sh:class": "http://data.europa.eu/m8g/ContactPoint",
           "sh:description": {
@@ -376,7 +376,7 @@
           "sh:path": "http://data.europa.eu/m8g/contactPoint"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/9c5181d03e1e48344598a8c12da20a1ca35c3ccd",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/9c5181d03e1e48344598a8c12da20a1ca35c3ccd",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.eventstatus",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -388,7 +388,7 @@
           "sh:path": "http://data.europa.eu/m8g/eventStatus"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/b286acdfe0b19f7dc16a064e5a7cbef868a32621",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/b286acdfe0b19f7dc16a064e5a7cbef868a32621",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.topic",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -400,7 +400,7 @@
           "sh:path": "http://purl.org/dc/terms/subject"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/cada7eccaa037221e39ca22ee97ce689067db260",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/cada7eccaa037221e39ca22ee97ce689067db260",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hastime",
           "sh:class": "http://www.w3.org/2006/time#TemporalEntity",
           "sh:description": {
@@ -412,7 +412,7 @@
           "sh:path": "http://www.w3.org/2006/time#hasTime"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.description",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -424,7 +424,7 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/f2ea23ea7d2e48da98de5a4a76dc3d86501b02b9",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/f2ea23ea7d2e48da98de5a4a76dc3d86501b02b9",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.audience",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -436,7 +436,7 @@
           "sh:path": "http://data.europa.eu/m8g/audience"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb0f4ce42568457dd68730013f20f7749a22ad39",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/fb0f4ce42568457dd68730013f20f7749a22ad39",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.hasparticipation",
           "sh:class": "http://data.europa.eu/m8g/Participation",
           "sh:description": {
@@ -448,7 +448,7 @@
           "sh:path": "http://data.europa.eu/m8g/hasParticipation"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEventShape/fb8568b313de736f9184db23272b6317700e9e7e",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#PublicEventShape/fb8568b313de736f9184db23272b6317700e9e7e",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#PublicEvent.homepage",
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
@@ -463,47 +463,47 @@
       "sh:targetClass": "http://data.europa.eu/m8g/PublicEvent"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#LinguisticSystemShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#LinguisticSystemShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://purl.org/dc/terms/LinguisticSystem"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TextShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#TextShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#LiteralShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#LiteralShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#IntegerShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#IntegerShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2001/XMLSchema#integer"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#CodeShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#CodeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#TemporalEntityShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/04d197dc40f01e87093bdd0446a9fdb1a9d44319",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#TemporalEntityShape/04d197dc40f01e87093bdd0446a9fdb1a9d44319",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.frequency",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -515,7 +515,7 @@
           "sh:path": "http://data.europa.eu/m8g/frequency"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntityShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#TemporalEntityShape/d4d4f2399b8cf2f615ac658920373b714726bed0",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#TemporalEntity.description",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -530,12 +530,12 @@
       "sh:targetClass": "http://www.w3.org/2006/time#TemporalEntity"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/17384dfa4a75117e7dd2bc0f2bbf61ac91fd8676",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.thoroughfare",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -547,7 +547,7 @@
           "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/362b7c3261b1d5eb024e72e4868babc25ed0c7ce",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/362b7c3261b1d5eb024e72e4868babc25ed0c7ce",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel1",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -559,7 +559,7 @@
           "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/470060a15e97aeacd56fcc5beb701e647a6aa56e",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/470060a15e97aeacd56fcc5beb701e647a6aa56e",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.addressarea",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -571,7 +571,7 @@
           "sh:path": "http://www.w3.org/ns/locn#addressArea"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/854a17171901a9c000eff34a7ccd77814891e3d5",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/854a17171901a9c000eff34a7ccd77814891e3d5",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.administrativeunitlevel2",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -583,7 +583,7 @@
           "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/98016263ed1fd03fc2066e397f3ae3343ce3bf79",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/98016263ed1fd03fc2066e397f3ae3343ce3bf79",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.postname",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -595,7 +595,7 @@
           "sh:path": "http://www.w3.org/ns/locn#postName"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/d75b5d4c221e6b0bf47c853c0be92d078c39e391",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/d75b5d4c221e6b0bf47c853c0be92d078c39e391",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.locatorname",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -607,7 +607,7 @@
           "sh:path": "http://www.w3.org/ns/locn#locatorName"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AddressShape/dee03556e405a14f1e410c960b43b8eee149efe7",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Address.fulladdress",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -622,12 +622,12 @@
       "sh:targetClass": "http://www.w3.org/ns/locn#Address"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AgentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AgentShape/263a563c5bed08cdaadf4a0fd0a5fb9874d742bc",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.name",
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
@@ -639,7 +639,7 @@
           "sh:path": "http://purl.org/dc/terms/title"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/322371a77364a50f049d46180f6192532eea26dc",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AgentShape/322371a77364a50f049d46180f6192532eea26dc",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.type",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
@@ -651,7 +651,7 @@
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/3ebdf1520cc4c255e68fed56bc8fa1d659e63f2b",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AgentShape/3ebdf1520cc4c255e68fed56bc8fa1d659e63f2b",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.participates",
           "sh:class": "http://data.europa.eu/m8g/Participation",
           "sh:description": {
@@ -663,7 +663,7 @@
           "sh:path": "http://data.europa.eu/m8g/participates"
         },
         {
-          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#AgentShape/5de4ef5193a558e17a34633888421d09b957d267",
+          "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#AgentShape/5de4ef5193a558e17a34633888421d09b957d267",
           "rdfs:seeAlso": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#Agent.address",
           "sh:class": "http://www.w3.org/ns/locn#Address",
           "sh:description": {
@@ -678,7 +678,7 @@
       "sh:targetClass": "http://xmlns.com/foaf/0.1/Agent"
     },
     {
-      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/#DocumentShape",
+      "@id": "https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0//shacl/core-public-event-ap-SHACL.ttl#DocumentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
