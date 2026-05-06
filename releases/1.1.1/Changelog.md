@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document describes the (major) changes to [the current version 1.1.0](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/) of the Core Public Event Vocabulary for which a new version is being proposed ([version 1.1.1](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.1/)). The list of changes results in the new version to be considered as a minor release.
+This document describes the (major) changes to [the current version 1.1.0](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/) of the Core Public Event Vocabulary for which a new version is being proposed ([version 1.1.1](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.1/)). The list of changes results in the new version to be considered as a bug-fix release.
 
 ## Detailed changes from v1.1.0 to v1.1.1
 
