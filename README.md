@@ -4,7 +4,7 @@ This is the repository for the development and maintenance of the Core Public Ev
 
 The Core Public Event Vocabulary provides a minimum set of classes and properties for describing a public event, e.g. a summit, conference, etc. 
 
-The current version of the Core Public Event Vocabulary is [1.1.0](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.0/).
+The current version of the Core Public Event Vocabulary is [1.1.1](https://semiceu.github.io/Core-Public-Event-Vocabulary/releases/1.1.1/).
 
 This specification is under development by the Working Group of the Core Public Event Vocabulary following an open and collaborative process (https://joinup.ec.europa.eu/document/process-and-methodology-developing-core-vocabularies). 
 
