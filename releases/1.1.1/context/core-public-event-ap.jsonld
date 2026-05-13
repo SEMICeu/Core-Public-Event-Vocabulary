@@ -1,7 +1,18 @@
 {
   "@context": {
     "Address": "http://www.w3.org/ns/locn#Address",
+    "AdminUnit": "http://data.europa.eu/m8g/AdminUnit",
+    "AdminUnit.name": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
+    "Agent.name": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "Code": "http://www.w3.org/2004/02/skos/core#Concept",
     "ContactPoint": "http://data.europa.eu/m8g/ContactPoint",
     "Document": "http://xmlns.com/foaf/0.1/Document",
@@ -54,6 +65,11 @@
     "availabilityRestriction": {
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/specialOpeningHoursSpecification",
+      "@type": "@id"
+    },
+    "code": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/code",
       "@type": "@id"
     },
     "contactPage": {
@@ -153,6 +169,11 @@
       "@id": "http://purl.org/dc/terms/language",
       "@type": "@id"
     },
+    "level": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/level",
+      "@type": "@id"
+    },
     "locatorDesignator": {
       "@container": "@set",
       "@id": "http://www.w3.org/ns/locn#locatorDesignator"
@@ -160,11 +181,6 @@
     "locatorName": {
       "@container": "@set",
       "@id": "http://www.w3.org/ns/locn#locatorName",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-    },
-    "name": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/title",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "openingHours": {
